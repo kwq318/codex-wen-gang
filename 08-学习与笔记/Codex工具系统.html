@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codex 工具 & 系统</title>
+<style>
+  :root {
+    --bg: #f0f4ef;
+    --text: #2d3a2e;
+    --accent: #4a8c5c;
+    --border: #c4d6c0;
+    --tag-bg: #e2ece0;
+    --tag-text: #3a5a3e;
+    --shadow: 0 2px 12px rgba(0,0,0,0.10);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: transparent;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 28px;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .sticky {
+    width: 420px;
+    max-width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: 22px 24px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .sticky::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 8px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.03) 0%, transparent 100%);
+  }
+  .title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed var(--border);
+  }
+  .title-bar h1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.02em;
+  }
+  .title-bar .count {
+    font-size: 11px;
+    color: #6b8c6e;
+  }
+  .desc {
+    font-size: 11px;
+    color: #6b7a6c;
+    margin-bottom: 14px;
+    line-height: 1.6;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 6px;
+  }
+  .tag {
+    font-size: 11px;
+    font-family: "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
+    background: #fff;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 3px 9px;
+    white-space: nowrap;
+    transition: background 0.15s;
+    cursor: default;
+  }
+  .tag:hover {
+    background: #dcede0;
+    border-color: var(--accent);
+  }
+  .footer {
+    margin-top: 14px;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border);
+    font-size: 10px;
+    color: #aaa;
+    text-align: right;
+  }
+</style>
+</head>
+<body>
+<div class="sticky">
+  <div class="title-bar">
+    <h1>⚙ 工具 & 系统</h1>
+    <span class="count">12 个</span>
+  </div>
+  <div class="desc">
+    搜索、截图、图片生成、PDF、浏览器自动化、数据校验、经济日历、GitHub 评论、技能开发与集成测试
+  </div>
+  <div class="tag-list">
+    <span class="tag">anysearch</span>
+    <span class="tag">data-quality-checker</span>
+    <span class="tag">dual-axis-skill-reviewer</span>
+    <span class="tag">economic-calendar-fetcher</span>
+    <span class="tag">gh-address-comments</span>
+    <span class="tag">gpt-image</span>
+    <span class="tag">pdf</span>
+    <span class="tag">playwright</span>
+    <span class="tag">skill-designer</span>
+    <span class="tag">skill-idea-miner</span>
+    <span class="tag">skill-integration-tester</span>
+    <span class="tag">theme-detector</span>
+  </div>
+  <div class="footer">Codex Tools · 2026-06-22</div>
+</div>
+</body>
+</html>

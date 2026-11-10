@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">第7、30、60、90天用量化标准检查进度</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">里程碑检查点</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="milestone-7" data-pptx-bounds="64 196 272 356">
+    <rect x="64" y="196" width="272" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="196" width="272" height="8" fill="#C34A3D"/>
+    <text x="96" y="264" font-size="40" font-weight="bold" fill="#17211F">第7天</text>
+    <text x="96" y="304" font-size="20" font-weight="bold" fill="#2E6F68">内部验证完成</text>
+    <text x="96" y="350" font-size="16" fill="#3E403D">华为边界和话术确认</text>
+    <text x="96" y="376" font-size="16" fill="#3E403D">对接人及引荐路径确认</text>
+    <text x="96" y="402" font-size="16" fill="#3E403D">Demo和成熟度评审完成</text>
+    <text x="96" y="428" font-size="16" fill="#3E403D">至少确定一个目标车型</text>
+  </g>
+  <g id="milestone-30" data-pptx-bounds="360 196 272 356">
+    <rect x="360" y="196" width="272" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="360" y="196" width="272" height="8" fill="#C34A3D"/>
+    <text x="392" y="264" font-size="40" font-weight="bold" fill="#17211F">第30天</text>
+    <text x="392" y="304" font-size="20" font-weight="bold" fill="#2E6F68">客户发现完成</text>
+    <text x="392" y="350" font-size="16" fill="#3E403D">至少2次有效客户沟通</text>
+    <text x="392" y="376" font-size="16" fill="#3E403D">找到业务和技术联系人</text>
+    <text x="392" y="402" font-size="16" fill="#3E403D">识别市场、车型和SOP窗口</text>
+    <text x="392" y="428" font-size="16" fill="#3E403D">识别至少3个真实痛点</text>
+    <text x="392" y="454" font-size="16" fill="#3E403D">获得二次技术交流机会</text>
+  </g>
+  <g id="milestone-60" data-pptx-bounds="656 196 272 356">
+    <rect x="656" y="196" width="272" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="656" y="196" width="272" height="8" fill="#C34A3D"/>
+    <text x="688" y="264" font-size="40" font-weight="bold" fill="#17211F">第60天</text>
+    <text x="688" y="304" font-size="20" font-weight="bold" fill="#2E6F68">技术适配完成</text>
+    <text x="688" y="350" font-size="16" fill="#3E403D">需求说明与接口清单</text>
+    <text x="688" y="376" font-size="16" fill="#3E403D">数据合规风险清单</text>
+    <text x="688" y="402" font-size="16" fill="#3E403D">三方职责明确</text>
+    <text x="688" y="428" font-size="16" fill="#3E403D">POC定义完成</text>
+    <text x="688" y="454" font-size="16" fill="#3E403D">启动供应商准入</text>
+  </g>
+  <g id="milestone-90" data-pptx-bounds="952 196 264 356">
+    <rect x="952" y="196" width="264" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="952" y="196" width="264" height="8" fill="#C34A3D"/>
+    <text x="984" y="264" font-size="40" font-weight="bold" fill="#17211F">第90天</text>
+    <text x="984" y="304" font-size="20" font-weight="bold" fill="#2E6F68">商务推进完成</text>
+    <text x="984" y="350" font-size="16" fill="#3E403D">付费POC</text>
+    <text x="984" y="376" font-size="16" fill="#3E403D">联合预研或技术合作</text>
+    <text x="984" y="402" font-size="16" fill="#3E403D">正式供应商评估</text>
+    <line x1="984" y1="432" x2="1192" y2="432" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="984" y="464" font-size="16" fill="#C34A3D">未达成则记录原因</text>
+    <text x="984" y="490" font-size="16" fill="#C34A3D">阻塞项和下次触达日期</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">每个检查点都有可验证的完成标准</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">10 / 12</text>
+  </g>
+</svg>

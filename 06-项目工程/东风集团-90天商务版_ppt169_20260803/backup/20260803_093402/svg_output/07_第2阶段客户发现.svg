@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">第2-4周完成有效客户沟通，并锁定目标车型</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">第2阶段 · 客户发现</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase2-task1" data-pptx-bounds="64 196 360 356">
+    <rect x="64" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="96" y="244" font-size="24" font-weight="bold" fill="#17211F">任务1 有效客户沟通</text>
+    <text x="96" y="292" font-size="17" fill="#3E403D">完成至少2次有效客户沟通。</text>
+    <text x="96" y="322" font-size="17" fill="#3E403D">找到业务和技术联系人。</text>
+    <text x="96" y="352" font-size="17" fill="#3E403D">识别目标市场、车型、项目阶段。</text>
+    <text x="96" y="382" font-size="17" fill="#3E403D">识别至少3个真实痛点。</text>
+    <text x="96" y="412" font-size="17" fill="#3E403D">获得第二次技术交流机会。</text>
+    <line x1="96" y1="462" x2="400" y2="462" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="96" y="496" font-size="16" font-weight="bold" fill="#2E6F68">产出：《客户需求访谈纪要》</text>
+  </g>
+  <g id="phase2-task2" data-pptx-bounds="448 196 360 356">
+    <rect x="448" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="448" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="480" y="244" font-size="24" font-weight="bold" fill="#17211F">任务2 决策链梳理</text>
+    <text x="480" y="292" font-size="17" fill="#3E403D">绘制东风智能座舱采购决策链。</text>
+    <text x="480" y="322" font-size="17" fill="#3E403D">识别关键决策人、技术评估人。</text>
+    <text x="480" y="352" font-size="17" fill="#3E403D">确认各角色关注点和优先级。</text>
+    <text x="480" y="382" font-size="17" fill="#3E403D">梳理现有供应商关系。</text>
+    <line x1="480" y1="462" x2="784" y2="462" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="480" y="496" font-size="16" font-weight="bold" fill="#2E6F68">产出：《东风账户地图》</text>
+  </g>
+  <g id="phase2-task3" data-pptx-bounds="832 196 384 356">
+    <rect x="832" y="196" width="384" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="832" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="864" y="244" font-size="24" font-weight="bold" fill="#17211F">任务3 项目筛选</text>
+    <text x="864" y="292" font-size="17" fill="#3E403D">梳理东风出口车型矩阵。</text>
+    <text x="864" y="322" font-size="17" fill="#3E403D">评估需求匹配度、预算、</text>
+    <text x="864" y="352" font-size="17" fill="#3E403D">时间窗口。</text>
+    <text x="864" y="382" font-size="17" fill="#3E403D">确认主线和备线。</text>
+    <line x1="864" y1="462" x2="1192" y2="462" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="864" y="496" font-size="16" font-weight="bold" fill="#2E6F68">产出：《目标项目资格评分表》</text>
+  </g>
+  <g id="phase2-exit" data-pptx-bounds="64 580 1152 68">
+    <rect x="64" y="580" width="1152" height="68" fill="#17211F"/>
+    <text x="96" y="620" font-size="24" font-weight="bold" fill="#FFFFFF">第30天出口标准：找到真实痛点、业务和技术联系人、可继续推进的项目</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">07 / 12</text>
+  </g>
+</svg>

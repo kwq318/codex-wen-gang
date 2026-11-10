@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">东风出口是当前最值得优先验证的客户机会</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">机会判断</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="opportunity-data-1" data-pptx-bounds="64 196 360 232">
+    <rect x="64" y="196" width="360" height="232" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="96" y="268" font-size="48" font-weight="bold" fill="#C34A3D">60万辆</text>
+    <text x="96" y="310" font-size="22" font-weight="bold" fill="#17211F">2026年东风出口目标</text>
+    <text x="96" y="348" font-size="18" fill="#3E403D">出口从战略主张转向集团级</text>
+    <text x="96" y="376" font-size="18" fill="#3E403D">量化目标。</text>
+  </g>
+  <g id="opportunity-data-2" data-pptx-bounds="448 196 360 232">
+    <rect x="448" y="196" width="360" height="232" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="480" y="268" font-size="48" font-weight="bold" fill="#17211F">9.6万辆</text>
+    <text x="480" y="310" font-size="22" font-weight="bold" fill="#17211F">2026年Q1实际出口</text>
+    <text x="480" y="348" font-size="18" fill="#3E403D">乘用车出口拉动整体增长，</text>
+    <text x="480" y="376" font-size="18" fill="#3E403D">节奏正在加快。</text>
+  </g>
+  <g id="opportunity-data-3" data-pptx-bounds="832 196 384 232">
+    <rect x="832" y="196" width="384" height="232" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="864" y="268" font-size="48" font-weight="bold" fill="#2E6F68">+75.6%</text>
+    <text x="864" y="310" font-size="22" font-weight="bold" fill="#17211F">Q1出口同比增速</text>
+    <text x="864" y="348" font-size="18" fill="#3E403D">海外市场放量带来座舱合规、</text>
+    <text x="864" y="376" font-size="18" fill="#3E403D">生态和软件升级的集中需求。</text>
+  </g>
+  <g id="opportunity-premise" data-pptx-bounds="64 456 1152 132">
+    <rect x="64" y="456" width="1152" height="132" fill="#17211F"/>
+    <text x="96" y="506" font-size="28" font-weight="bold" fill="#FFFFFF">前提：仍需验证产品与华为HMS的真实集成深度</text>
+    <text x="96" y="548" font-size="20" fill="#E9E6DE">同时确认东风出口车型的座舱决策链、采购窗口和目标车型SOP时间。</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">来源：东风公开出口目标、2026年Q1出口数据、项目记忆</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">03 / 12</text>
+  </g>
+</svg>

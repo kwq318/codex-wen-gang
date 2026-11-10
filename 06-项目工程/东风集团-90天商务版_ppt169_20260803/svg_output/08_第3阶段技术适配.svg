@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">第5-8周完成合规预审和POC定义</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">第3阶段 · 技术适配</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase3-compliance" data-pptx-bounds="64 196 360 384">
+    <rect x="64" y="196" width="360" height="384" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="196" width="8" height="384" fill="#C34A3D"/>
+    <text x="96" y="244" font-size="24" font-weight="bold" fill="#17211F">合规预审要点</text>
+    <text x="96" y="292" font-size="16" fill="#3E403D">GDPR：区分数据处理者与</text>
+    <text x="96" y="316" font-size="16" fill="#3E403D">控制者责任，不简单表述为</text>
+    <text x="96" y="340" font-size="16" fill="#3E403D">“脱敏后可跨境传输”。</text>
+    <text x="96" y="374" font-size="16" fill="#3E403D">PDPA：按目标国家确认数据</text>
+    <text x="96" y="398" font-size="16" fill="#3E403D">本地化要求，不统一表述为</text>
+    <text x="96" y="422" font-size="16" fill="#3E403D">“必须本地存储”。</text>
+    <text x="96" y="456" font-size="16" fill="#3E403D">UN R156：确认SUMS、软件</text>
+    <text x="96" y="480" font-size="16" fill="#3E403D">更新证书和相关规程。</text>
+    <text x="96" y="504" font-size="16" fill="#3E403D">OTA通道只是基础。</text>
+    <line x1="96" y1="526" x2="400" y2="526" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="96" y="556" font-size="16" font-weight="bold" fill="#2E6F68">产出：数据合规风险清单</text>
+  </g>
+  <g id="phase3-poc" data-pptx-bounds="448 196 360 384">
+    <rect x="448" y="196" width="360" height="384" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="448" y="196" width="8" height="384" fill="#C34A3D"/>
+    <text x="480" y="244" font-size="24" font-weight="bold" fill="#17211F">POC定义</text>
+    <text x="480" y="292" font-size="16" fill="#3E403D">确认范围：功能、场景、车型。</text>
+    <text x="480" y="322" font-size="16" fill="#3E403D">确认资源：艾博连人力/周期、</text>
+    <text x="480" y="346" font-size="16" fill="#3E403D">华为集成支持、东风配合资源。</text>
+    <text x="480" y="376" font-size="16" fill="#3E403D">确认周期：分阶段交付节点。</text>
+    <text x="480" y="406" font-size="16" fill="#3E403D">确认成功标准：可量化验收指标。</text>
+    <line x1="480" y1="466" x2="784" y2="466" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="480" y="500" font-size="16" font-weight="bold" fill="#2E6F68">产出：《POC任务书》</text>
+    <text x="480" y="536" font-size="16" fill="#3E403D">华为角色以第1周确认的</text>
+    <text x="480" y="560" font-size="16" fill="#3E403D">边界为准。</text>
+  </g>
+  <g id="phase3-roles" data-pptx-bounds="832 196 384 384">
+    <rect x="832" y="196" width="384" height="384" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="832" y="196" width="8" height="384" fill="#C34A3D"/>
+    <text x="864" y="244" font-size="24" font-weight="bold" fill="#17211F">三方职责</text>
+    <text x="864" y="292" font-size="16" font-weight="bold" fill="#17211F">华为</text>
+    <text x="864" y="318" font-size="16" fill="#3E403D">在已确认接口范围内提供海外</text>
+    <text x="864" y="342" font-size="16" fill="#3E403D">车载生态与底层服务能力。</text>
+    <text x="864" y="378" font-size="16" font-weight="bold" fill="#17211F">艾博连</text>
+    <text x="864" y="404" font-size="16" fill="#3E403D">跨品牌场景编排、HMI适配、</text>
+    <text x="864" y="428" font-size="16" fill="#3E403D">Agent协同、运营管理。</text>
+    <text x="864" y="464" font-size="16" font-weight="bold" fill="#17211F">东风</text>
+    <text x="864" y="490" font-size="16" fill="#3E403D">车型需求定义、实车验证、</text>
+    <text x="864" y="514" font-size="16" fill="#3E403D">商务采购。</text>
+    <line x1="864" y1="536" x2="1192" y2="536" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="864" y="566" font-size="16" fill="#3E403D">注意：以上为建议框架，需确认后定稿。</text>
+  </g>
+  <g id="phase3-exit" data-pptx-bounds="64 580 1152 68">
+    <rect x="64" y="580" width="1152" height="68" fill="#17211F"/>
+    <text x="96" y="620" font-size="24" font-weight="bold" fill="#FFFFFF">第60天出口标准：需求说明、接口清单、合规风险清单、POC定义完成</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">08 / 12</text>
+  </g>
+</svg>

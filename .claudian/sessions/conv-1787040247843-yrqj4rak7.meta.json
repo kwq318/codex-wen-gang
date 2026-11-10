@@ -1,0 +1,27 @@
+{
+  "id": "conv-1787040247843-yrqj4rak7",
+  "providerId": "codex",
+  "title": "规划公司使命与销售战略",
+  "titleGenerationStatus": "success",
+  "createdAt": 1787040247856,
+  "lastActivityAt": 1789637841533,
+  "sessionId": "01a013e6-30b8-7be1-b3aa-980a7b7e2c4f",
+  "selectedModel": "openai-codex/deepseek-v4-flash",
+  "providerState": {
+    "threadId": "01a013e6-30b8-7be1-b3aa-980a7b7e2c4f",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/kangweiqing/.codex/sessions/2026/08/18/rollout-2026-08-18T16-04-07-01a013e6-30b8-7be1-b3aa-980a7b7e2c4f.jsonl",
+    "transcriptRootPath": "/Users/kangweiqing/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "usage": {
+    "inputTokens": 98220,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 97280,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 98220,
+    "percentage": 38,
+    "model": "openai-codex/deepseek-v4-flash"
+  }
+}

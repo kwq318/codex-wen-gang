@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">第1周先验证证据，不先承诺客户</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">第1阶段 · 内部验证</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase1-task1" data-pptx-bounds="64 196 360 356">
+    <rect x="64" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="96" y="244" font-size="24" font-weight="bold" fill="#17211F">任务1 确认华为合作边界</text>
+    <text x="96" y="292" font-size="17" fill="#3E403D">确认华为侧对接人及东风</text>
+    <text x="96" y="318" font-size="17" fill="#3E403D">引荐路径。</text>
+    <text x="96" y="352" font-size="17" fill="#3E403D">确认双方定位：接口边界、</text>
+    <text x="96" y="378" font-size="17" fill="#3E403D">报价模式、合同主体。</text>
+    <text x="96" y="412" font-size="17" fill="#3E403D">确认联合拜访话术能否公开</text>
+    <text x="96" y="438" font-size="17" fill="#3E403D">使用“华为关系”。</text>
+    <line x1="96" y1="470" x2="400" y2="470" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="96" y="502" font-size="16" font-weight="bold" fill="#2E6F68">产出：《华为×艾博连合作边界确认表》</text>
+  </g>
+  <g id="phase1-task2" data-pptx-bounds="448 196 360 356">
+    <rect x="448" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="448" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="480" y="244" font-size="24" font-weight="bold" fill="#17211F">任务2 产品能力自评</text>
+    <text x="480" y="292" font-size="17" fill="#3E403D">完成全球化Demo和产品</text>
+    <text x="480" y="318" font-size="17" fill="#3E403D">成熟度评审。</text>
+    <text x="480" y="352" font-size="17" fill="#3E403D">建立《出口座舱能力与</text>
+    <text x="480" y="378" font-size="17" fill="#3E403D">证据矩阵》。</text>
+    <text x="480" y="412" font-size="17" fill="#3E403D">分级标注：已量产、预研中、</text>
+    <text x="480" y="438" font-size="17" fill="#3E403D">规划中。</text>
+    <text x="480" y="472" font-size="17" fill="#3E403D">明确可现场演示与仅可展示项。</text>
+    <line x1="480" y1="504" x2="784" y2="504" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase1-task3" data-pptx-bounds="832 196 384 356">
+    <rect x="832" y="196" width="384" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="832" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="864" y="244" font-size="24" font-weight="bold" fill="#17211F">任务3 确定目标项目</text>
+    <text x="864" y="292" font-size="17" fill="#3E403D">至少确定一个目标项目或</text>
+    <text x="864" y="318" font-size="17" fill="#3E403D">目标车型。</text>
+    <text x="864" y="352" font-size="17" fill="#3E403D">收集车型现有座舱方案信息。</text>
+    <text x="864" y="386" font-size="17" fill="#3E403D">识别车型SOP窗口和当前</text>
+    <text x="864" y="412" font-size="17" fill="#3E403D">项目阶段。</text>
+    <line x1="864" y1="470" x2="1192" y2="470" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="864" y="502" font-size="16" font-weight="bold" fill="#2E6F68">产出：《目标车型/项目假设表》</text>
+  </g>
+  <g id="phase1-exit" data-pptx-bounds="64 580 1152 68">
+    <rect x="64" y="580" width="1152" height="68" fill="#17211F"/>
+    <text x="96" y="620" font-size="24" font-weight="bold" fill="#FFFFFF">第1周出口标准：能回答“能展示什么、能承诺什么、优先走哪条路径”</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">06 / 12</text>
+  </g>
+</svg>

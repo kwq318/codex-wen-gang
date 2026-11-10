@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">90天分四阶段：</text>
+    <text x="64" y="130" font-size="40" font-weight="bold" fill="#17211F">内部验证 → 客户发现 → 技术适配 → 商务立项</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">90天路线图</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase-1" data-pptx-bounds="64 200 272 322">
+    <rect x="64" y="200" width="272" height="322" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="200" width="272" height="8" fill="#C34A3D"/>
+    <text x="96" y="262" font-size="48" font-weight="bold" fill="#C34A3D">01</text>
+    <text x="96" y="308" font-size="24" font-weight="bold" fill="#17211F">内部验证</text>
+    <text x="96" y="338" font-size="18" fill="#3E403D">第1周</text>
+    <text x="96" y="382" font-size="17" fill="#3E403D">确认华为合作边界</text>
+    <text x="96" y="410" font-size="17" fill="#3E403D">产品能力自评</text>
+    <text x="96" y="438" font-size="17" fill="#3E403D">确定目标项目</text>
+    <line x1="96" y1="466" x2="312" y2="466" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="96" y="494" font-size="16" fill="#2E6F68">输出：边界确认表</text>
+    <text x="96" y="516" font-size="16" fill="#2E6F68">证据矩阵 · 目标车型假设表</text>
+  </g>
+  <g id="phase-2" data-pptx-bounds="360 200 272 322">
+    <rect x="360" y="200" width="272" height="322" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="360" y="200" width="272" height="8" fill="#C34A3D"/>
+    <text x="392" y="262" font-size="48" font-weight="bold" fill="#C34A3D">02</text>
+    <text x="392" y="308" font-size="24" font-weight="bold" fill="#17211F">客户发现</text>
+    <text x="392" y="338" font-size="18" fill="#3E403D">第2-4周</text>
+    <text x="392" y="382" font-size="17" fill="#3E403D">完成有效客户沟通</text>
+    <text x="392" y="410" font-size="17" fill="#3E403D">梳理决策链</text>
+    <text x="392" y="438" font-size="17" fill="#3E403D">筛选目标项目</text>
+    <line x1="392" y1="466" x2="608" y2="466" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="392" y="494" font-size="16" fill="#2E6F68">输出：访谈纪要</text>
+    <text x="392" y="516" font-size="16" fill="#2E6F68">账户地图 · 资格评分表</text>
+  </g>
+  <g id="phase-3" data-pptx-bounds="656 200 272 322">
+    <rect x="656" y="200" width="272" height="322" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="656" y="200" width="272" height="8" fill="#C34A3D"/>
+    <text x="688" y="262" font-size="48" font-weight="bold" fill="#C34A3D">03</text>
+    <text x="688" y="308" font-size="24" font-weight="bold" fill="#17211F">技术适配</text>
+    <text x="688" y="338" font-size="18" fill="#3E403D">第5-8周</text>
+    <text x="688" y="382" font-size="17" fill="#3E403D">合规预审</text>
+    <text x="688" y="410" font-size="17" fill="#3E403D">POC定义</text>
+    <text x="688" y="438" font-size="17" fill="#3E403D">三方职责确认</text>
+    <line x1="688" y1="466" x2="904" y2="466" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="688" y="494" font-size="16" fill="#2E6F68">输出：合规风险清单</text>
+    <text x="688" y="516" font-size="16" fill="#2E6F68">POC任务书</text>
+  </g>
+  <g id="phase-4" data-pptx-bounds="952 200 264 322">
+    <rect x="952" y="200" width="264" height="322" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="952" y="200" width="264" height="8" fill="#C34A3D"/>
+    <text x="984" y="262" font-size="48" font-weight="bold" fill="#C34A3D">04</text>
+    <text x="984" y="308" font-size="24" font-weight="bold" fill="#17211F">商务立项</text>
+    <text x="984" y="338" font-size="18" fill="#3E403D">第9-12周</text>
+    <text x="984" y="382" font-size="17" fill="#3E403D">供应商准入</text>
+    <text x="984" y="410" font-size="17" fill="#3E403D">商务提案</text>
+    <text x="984" y="438" font-size="17" fill="#3E403D">下一阶段锁定</text>
+    <line x1="984" y1="466" x2="1192" y2="466" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="984" y="494" font-size="16" fill="#2E6F68">输出：采购流程图</text>
+    <text x="984" y="516" font-size="16" fill="#2E6F68">机会卡</text>
+  </g>
+  <g id="roadmap-bottom-line" data-pptx-bounds="64 550 1152 80">
+    <rect x="64" y="550" width="1152" height="80" fill="#17211F"/>
+    <text x="96" y="594" font-size="24" font-weight="bold" fill="#FFFFFF">底线结果：付费POC / 联合预研或技术合作协议 / 进入正式供应商评估</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">05 / 12</text>
+  </g>
+</svg>

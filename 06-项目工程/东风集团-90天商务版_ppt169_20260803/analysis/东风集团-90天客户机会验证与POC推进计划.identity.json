@@ -1,0 +1,107 @@
+{
+  "source": "/Users/kangweiqing/Desktop/桌面/codex文稿/06-项目工程/东风集团-90天商务版_ppt169_20260803/sources/东风集团-90天客户机会验证与POC推进计划.pptx",
+  "slide_count": 18,
+  "canvas": {
+    "width_px": 1280,
+    "height_px": 720,
+    "aspect": 1.7777
+  },
+  "theme": {
+    "palette": {
+      "background": "#FFFFFF",
+      "background_alt": "#EEECE1",
+      "text": "#000000",
+      "text_alt": "#1F497D",
+      "hyperlink": "#0000FF",
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "primary": "#4F81BD"
+    },
+    "fonts": {
+      "title": {
+        "latin": "Calibri",
+        "scripts": {
+          "Jpan": "ＭＳ Ｐゴシック",
+          "Hang": "맑은 고딕",
+          "Hans": "宋体",
+          "Hant": "新細明體"
+        }
+      },
+      "body": {
+        "latin": "Calibri",
+        "scripts": {
+          "Jpan": "ＭＳ Ｐゴシック",
+          "Hang": "맑은 고딕",
+          "Hans": "宋体",
+          "Hant": "新細明體"
+        }
+      }
+    },
+    "sizes": {
+      "title": 44.0,
+      "body": 32.0,
+      "body_levels": [
+        32.0,
+        28.0,
+        24.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0,
+        20.0
+      ]
+    }
+  },
+  "observed": {
+    "fonts": {
+      "latin": [
+        {
+          "value": "Microsoft YaHei",
+          "count": 264
+        }
+      ],
+      "ea": []
+    },
+    "sizes_pt": [],
+    "colors": [
+      {
+        "value": "#FFFFFF",
+        "count": 74
+      },
+      {
+        "value": "#1F2937",
+        "count": 62
+      },
+      {
+        "value": "#0D233F",
+        "count": 60
+      },
+      {
+        "value": "#F9FAFB",
+        "count": 49
+      },
+      {
+        "value": "#00BCA0",
+        "count": 47
+      },
+      {
+        "value": "#6B7280",
+        "count": 47
+      },
+      {
+        "value": "#1A56DB",
+        "count": 34
+      },
+      {
+        "value": "#9CA3AF",
+        "count": 22
+      }
+    ]
+  },
+  "layout_sizes_pt": []
+}

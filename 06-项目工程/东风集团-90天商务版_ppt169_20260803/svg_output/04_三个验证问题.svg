@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">先验证三个前提，再决定是否投入POC</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">验证框架</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="check-demand" data-pptx-bounds="64 196 360 356">
+    <rect x="64" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="96" y="244" font-size="24" font-weight="bold" fill="#17211F">需求是否真实</text>
+    <text x="96" y="292" font-size="18" fill="#3E403D">东风出口车型是否面对</text>
+    <text x="96" y="322" font-size="18" fill="#3E403D">海外合规、生态本地化和</text>
+    <text x="96" y="352" font-size="18" fill="#3E403D">软件升级合规痛点。</text>
+    <line x1="96" y1="386" x2="400" y2="386" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="96" y="420" font-size="18" font-weight="bold" fill="#2E6F68">验证动作</text>
+    <text x="96" y="456" font-size="18" fill="#3E403D">通过客户访谈确认目标市场、</text>
+    <text x="96" y="486" font-size="18" fill="#3E403D">车型和当前未解决问题。</text>
+    <text x="96" y="522" font-size="18" fill="#3E403D">至少识别3个真实痛点。</text>
+  </g>
+  <g id="check-product" data-pptx-bounds="448 196 360 356">
+    <rect x="448" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="448" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="480" y="244" font-size="24" font-weight="bold" fill="#17211F">产品是否匹配</text>
+    <text x="480" y="292" font-size="18" fill="#3E403D">艾博连全球化座舱方案与</text>
+    <text x="480" y="322" font-size="18" fill="#3E403D">华为HMS的集成深度是否</text>
+    <text x="480" y="352" font-size="18" fill="#3E403D">支撑对外演示。</text>
+    <line x1="480" y1="386" x2="784" y2="386" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="480" y="420" font-size="18" font-weight="bold" fill="#2E6F68">验证动作</text>
+    <text x="480" y="456" font-size="18" fill="#3E403D">完成全球化Demo和产品成熟度</text>
+    <text x="480" y="486" font-size="18" fill="#3E403D">评审，建立证据矩阵。</text>
+    <text x="480" y="522" font-size="18" fill="#3E403D">明确可演示与仅可展示项。</text>
+  </g>
+  <g id="check-path" data-pptx-bounds="832 196 384 356">
+    <rect x="832" y="196" width="384" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="832" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="864" y="244" font-size="24" font-weight="bold" fill="#17211F">路径是否可走通</text>
+    <text x="864" y="292" font-size="18" fill="#3E403D">东风供应商准入、决策链、</text>
+    <text x="864" y="322" font-size="18" fill="#3E403D">目标车型SOP窗口是否</text>
+    <text x="864" y="352" font-size="18" fill="#3E403D">可进入。</text>
+    <line x1="864" y1="386" x2="1192" y2="386" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="864" y="420" font-size="18" font-weight="bold" fill="#2E6F68">验证动作</text>
+    <text x="864" y="456" font-size="18" fill="#3E403D">梳理账户地图、采购流程和</text>
+    <text x="864" y="486" font-size="18" fill="#3E403D">目标项目资格评分。</text>
+    <text x="864" y="522" font-size="18" fill="#3E403D">确认主线和备线。</text>
+  </g>
+  <g id="check-outcome" data-pptx-bounds="64 580 1152 68">
+    <rect x="64" y="580" width="1152" height="68" fill="#17211F"/>
+    <text x="96" y="620" font-size="24" font-weight="bold" fill="#FFFFFF">验证产出：需求假设、产品证据矩阵、目标车型资格评分</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">04 / 12</text>
+  </g>
+</svg>

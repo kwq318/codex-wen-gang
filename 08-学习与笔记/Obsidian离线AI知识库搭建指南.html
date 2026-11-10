@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obsidian 离线本地 AI 知识库 · 纯鼠标搭建指南</title>
+<style>
+  :root {
+    --bg: #faf9f6; --card: #ffffff; --text: #1a1a1a; --sub: #555;
+    --accent: #7c3aed; --accent-soft: #ede9fe; --border: #e5e0d8;
+    --step: #059669; --warn: #d97706; --radius: 8px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7;
+  }
+  .container { max-width: 780px; margin: 0 auto; padding: 40px 24px 80px; }
+  .hero { text-align: center; padding: 48px 0 36px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
+  .hero h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  .hero .sub { color: var(--sub); font-size: 15px; }
+  .badge-row { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:16px; }
+  .badge { display:inline-block; background:var(--accent-soft); color:var(--accent); padding:3px 12px; border-radius:20px; font-size:12px; font-weight:600; }
+  .checklist { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius); padding: 18px 22px; margin: 28px 0; }
+  .checklist h3 { font-size:15px; color:#166534; margin-bottom:10px; }
+  .checklist ul { list-style:none; padding-left:0; }
+  .checklist li { font-size:14px; color:#14532d; margin:4px 0; }
+  .checklist li::before { content:"✅ "; }
+  .section { margin: 48px 0; }
+  .section-title { font-size: 22px; font-weight: 700; padding: 10px 0; border-bottom: 2px solid var(--accent); margin-bottom: 24px; }
+  .step-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 20px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+  .step-header { display: flex; align-items: center; gap: 12px; padding: 14px 18px; background: #fafaf9; border-bottom: 1px solid var(--border); }
+  .step-num { width: 30px; height: 30px; background: var(--step); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; flex-shrink: 0; }
+  .step-header h4 { font-size: 15px; font-weight: 600; }
+  .step-body { padding: 18px; font-size: 14px; }
+  .step-body p { margin: 8px 0; }
+  .click-path { background: #fefce8; border-left: 3px solid #eab308; padding: 10px 14px; margin: 12px 0; border-radius: 0 6px 6px 0; font-size: 13px; color: #713f12; }
+  .click-path strong { color: #a16207; }
+  .config-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  .config-table th, .config-table td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
+  .config-table th { background: #fafaf9; font-weight: 600; white-space:nowrap; }
+  .config-table td:first-child { font-weight: 600; white-space:nowrap; }
+  .val { font-family: "SF Mono","Menlo","Consolas",monospace; background:#f5f5f4; padding:1px 6px; border-radius:3px; font-size:12px; }
+  .tip { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: var(--radius); padding: 12px 16px; margin: 14px 0; font-size: 13px; color: #1e40af; }
+  .tip::before { content:"💡 "; }
+  .warn-box { background: #fffbeb; border: 1px solid #fde68a; border-radius: var(--radius); padding: 12px 16px; margin: 14px 0; font-size: 13px; color: #92400e; }
+  .warn-box::before { content:"⚠️ "; }
+  .done-box { background: #f0fdf4; border: 2px solid #86efac; border-radius: var(--radius); padding: 16px 20px; margin: 14px 0; font-size: 13px; color: #166534; }
+  .done-box::before { content:"🟢 "; }
+  .slider-demo { display:flex; align-items:center; gap:12px; background:#fafaf9; padding:10px 14px; border-radius:6px; margin:8px 0; font-size:13px; }
+  .slider-track { flex:1; height:6px; background:#e5e5e5; border-radius:3px; position:relative; }
+  .slider-fill { height:6px; background:var(--accent); border-radius:3px; }
+  .slider-knob { width:16px; height:16px; background:#fff; border:2px solid var(--accent); border-radius:50%; position:absolute; top:-5px; }
+  hr { border:none; border-top:1px solid var(--border); margin:36px 0; }
+  .toc { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:18px 22px; margin:24px 0; }
+  .toc h3 { font-size:15px; margin-bottom:10px; }
+  .toc ol { padding-left:20px; font-size:14px; }
+  .toc li { margin:4px 0; }
+  .toc a { color:var(--accent); text-decoration:none; }
+  .flow-arrow { text-align:center; font-size:24px; color:var(--accent); margin:8px 0; }
+  @media (max-width:600px) { .container { padding:20px 14px 60px; } .hero h1 { font-size:22px; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="hero">
+  <h1>🧠 Obsidian 离线本地 AI 知识库</h1>
+  <p class="sub">纯鼠标点击 · 零代码 · Mac M 系列 16G 内存</p>
+  <div class="badge-row">
+    <span class="badge">全部离线</span>
+    <span class="badge">数据不出电脑</span>
+    <span class="badge">免费</span>
+    <span class="badge">无需终端</span>
+  </div>
+</div>
+
+<div class="checklist">
+  <h3>开始之前，请确认你已经有了：</h3>
+  <ul>
+    <li>LM Studio 已安装在「应用程序」文件夹</li>
+    <li>Obsidian 已安装在「应用程序」文件夹</li>
+    <li>至少 10GB 剩余磁盘空间</li>
+  </ul>
+</div>
+
+<!-- ===== 路线图 ===== -->
+<div class="toc">
+  <h3>📋 三站路线图（跟着走就行，不需要理解每一步）</h3>
+  <ol>
+    <li><a href="#s1">第一站：LM Studio 下载两个模型</a></li>
+    <li><a href="#s2">第二站：LM Studio 开服务 + CORS</a></li>
+    <li><a href="#s3">第三站：Obsidian 配置 Smart Connections</a></li>
+    <li><a href="#s4">附：内存发热优化</a></li>
+  </ol>
+</div>
+
+<!-- ===== 第一站 ===== -->
+<div class="section" id="s1">
+  <div class="section-title">第一站 · LM Studio 下载两个模型</div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">1</span><h4>打开 LM Studio</h4></div>
+    <div class="step-body">
+      <div class="click-path"><strong>点击：</strong>程序坞上的 LM Studio 图标（彩色立方体）。找不到就去「启动台」。</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">2</span><h4>下载嵌入模型（理解笔记用，约 0.3GB，很快）</h4></div>
+    <div class="step-body">
+      <div class="click-path">
+        ① 顶部 <strong>🔍 Search</strong> → ② 搜 <span class="val">nomic-embed-text</span> → ③ 找 "nomic-embed-text-v1.5-GGUF"（nomic-ai 发布）→ ④ 进入详情 → ⑤ 选 <span class="val">Q4_K_M</span> 版本 → ⑥ <strong>⬇ Download</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">3</span><h4>下载对话模型（回答问题用，约 4.7GB，等 10-20 分钟）</h4></div>
+    <div class="step-body">
+      <div class="click-path">
+        ① 🔍 Search → ② 搜 <span class="val">Qwen2.5</span> → ③ 找 "Qwen2.5-7B-Instruct-GGUF"（Qwen 发布）→ ④ 进入详情 → ⑤ 选 <span class="val">Q4_K_M</span> → ⑥ <strong>⬇ Download</strong>
+      </div>
+      <div class="warn-box">网慢的话换 <span class="val">Qwen2.5-3B-Instruct-GGUF</span>（约 2GB），一样用。</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">4</span><h4>确认下载完毕</h4></div>
+    <div class="step-body">
+      <div class="click-path">顶部 <strong>📦 My Models</strong> → 看到两个模型就 OK</div>
+      <div class="done-box">这一步完成 → 进入下一站</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 第二站 ===== -->
+<div class="section" id="s2">
+  <div class="section-title">第二站 · LM Studio 开服务 + 开 CORS</div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">5</span><h4>加载对话模型</h4></div>
+    <div class="step-body">
+      <div class="click-path">顶部 <strong>💬 Chat</strong> → 顶部模型下拉框 → 选 <strong>Qwen2.5-7B-Instruct</strong> → 等绿色 ✅ 出现</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">6</span><h4>开启本地服务器</h4></div>
+    <div class="step-body">
+      <div class="click-path">顶部 <strong>⚙️ Developer</strong> → Local Server 区域 → 开关拨成 <strong>🟢 Running</strong></div>
+      <p>看到地址 <span class="val">http://127.0.0.1:1234</span>，这就是你电脑上的 AI 服务地址。</p>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">7</span><h4>开启 CORS（⚠️ 最关键一步，漏掉后面全失败）</h4></div>
+    <div class="step-body">
+      <div class="click-path">同一页 Local Server 区域 → 找 <strong>"Enable CORS"</strong> → 点成 <strong>✅ 开启</strong></div>
+      <div class="warn-box">反复确认：CORS 必须是 ✅ 开启状态。</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">8</span><h4>加载嵌入模型</h4></div>
+    <div class="step-body">
+      <div class="click-path">Developer 页 → Loaded Models → <strong>➕ Load another</strong> → 选 <strong>nomic-embed-text-v1.5</strong></div>
+      <div class="done-box">这一步完成 → 进入最后一站</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 第三站：Smart Connections ===== -->
+<div class="section" id="s3">
+  <div class="section-title">第三站 · Obsidian 配置 Smart Connections</div>
+
+  <div class="tip" style="margin-bottom:20px;">
+    你的 Obsidian 里已经装好了 <strong>Smart Connections</strong> 插件，不需要额外安装任何东西。
+    这是你搭建知识库的最后一站，只需要 3 步。
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">9</span><h4>打开 Smart Connections 设置</h4></div>
+    <div class="step-body">
+      <div class="click-path">
+        Obsidian 左下角 <strong>⚙️ 设置</strong> → 左侧列表找到 <strong>「Smart Connections」</strong>（在「第三方插件」分组下）
+      </div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">10</span><h4>照抄填写配置表</h4></div>
+    <div class="step-body">
+      <p>打开 Smart Connections 设置后，你会看到一个表单，请按照下面表格一项一项填：</p>
+
+      <table class="config-table">
+        <tr><th>看到这个设置项</th><th>填这个值</th></tr>
+        <tr><td>Model Platform / API Provider</td><td><span class="val">OpenAI Compatible</span> 或 <span class="val">Custom</span></td></tr>
+        <tr><td>Base URL</td><td><span class="val">http://127.0.0.1:1234/v1</span></td></tr>
+        <tr><td>API Key</td><td><span class="val">lm-studio</span></td></tr>
+        <tr><td>Chat Model / Model Name</td><td><span class="val">qwen2.5-7b-instruct</span></td></tr>
+        <tr><td>Embedding Model</td><td><span class="val">nomic-embed-text-v1.5</span></td></tr>
+      </table>
+
+      <div class="warn-box">填完找 <strong>「Test」</strong>或 <strong>「Verify」</strong>按钮 → 点一下 → 看到绿色 ✅ 就对了。红色 ❌ 的话检查 CORS 开了没有、地址有没有漏掉末尾的 <span class="val">/v1</span>。</div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">11</span><h4>索引你的笔记库</h4></div>
+    <div class="step-body">
+      <div class="click-path">
+        在 Smart Connections 设置里找 <strong>「Sync vault」/「Index」/「Initialize」</strong>按钮 → 点它 → 等进度条走完
+      </div>
+      <p>这一步把笔记转成 AI 能读懂的格式。100 篇笔记大约 1-2 分钟。</p>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">12</span><h4>开始使用</h4></div>
+    <div class="step-body">
+      <p>索引完成后，Obsidian <strong>右侧边栏</strong>会出现一个聊天面板。在聊天框里输入问题，AI 就会从你的笔记里找答案。</p>
+      <p>试试输入：「总结我最近三天写了什么」</p>
+      <div class="done-box">🎉 全部完成！你的离线 AI 知识库可以用了。</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===== 附：优化 ===== -->
+<div class="section" id="s4">
+  <div class="section-title">附 · 让 Mac 不烫不卡</div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">13</span><h4>LM Studio 里拖三个滑块</h4></div>
+    <div class="step-body">
+      <div class="click-path">LM Studio → 右上角 ⚙️ Settings → 左侧 GPU / Runtime</div>
+
+      <div class="slider-demo">
+        <span style="width:140px;flex-shrink:0;">GPU Offload Layers</span>
+        <div class="slider-track"><div class="slider-fill" style="width:60%;"></div><div class="slider-knob" style="left:55%;"></div></div>
+        <span><strong>20 ~ 24</strong></span>
+      </div>
+      <div class="slider-demo">
+        <span style="width:140px;flex-shrink:0;">Context Length</span>
+        <div class="slider-track"><div class="slider-fill" style="width:50%;"></div><div class="slider-knob" style="left:45%;"></div></div>
+        <span><strong>4096</strong></span>
+      </div>
+      <div class="slider-demo">
+        <span style="width:140px;flex-shrink:0;">CPU Threads</span>
+        <div class="slider-track"><div class="slider-fill" style="width:60%;"></div><div class="slider-knob" style="left:55%;"></div></div>
+        <span><strong>6 ~ 8</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="step-card">
+    <div class="step-header"><span class="step-num">14</span><h4>日常省资源习惯</h4></div>
+    <div class="step-body">
+      <table class="config-table">
+        <tr><th>什么时候</th><th>怎么做</th></tr>
+        <tr><td>只写笔记不用 AI</td><td>关掉 LM Studio，完全不占内存</td></tr>
+        <tr><td>需要 AI 问问题</td><td>打开 LM Studio → 问完就关掉</td></tr>
+        <tr><td>Mac 发烫厉害</td><td>换 3B 模型，发热直接减半</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 最终检查 ===== -->
+<div class="checklist" style="margin-top:40px;">
+  <h3>🏁 最终检查（全部打勾才算完）</h3>
+  <ul>
+    <li>LM Studio Developer 页 🟢 Server Running，端口 1234</li>
+    <li>CORS 开关 ✅ 开启</li>
+    <li>Smart Connections Test 显示绿色 Connected</li>
+    <li>笔记索引完成</li>
+    <li>在聊天窗口问了一句，AI 从笔记里找到了答案</li>
+  </ul>
+</div>
+
+<hr>
+<p style="text-align:center;color:var(--sub);font-size:13px;">
+  2026-07-17 · LM Studio + Obsidian Smart Connections · Mac M 系列
+</p>
+
+</div>
+</body>
+</html>

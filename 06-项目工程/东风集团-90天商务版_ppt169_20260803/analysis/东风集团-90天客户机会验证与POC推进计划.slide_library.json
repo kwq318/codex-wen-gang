@@ -1,0 +1,6858 @@
+{
+  "schema": "template_fill_pptx_library.v1",
+  "source_pptx": "/Users/kangweiqing/Desktop/桌面/codex文稿/06-项目工程/东风集团-90天商务版_ppt169_20260803/sources/东风集团-90天客户机会验证与POC推进计划.pptx",
+  "slide_count": 18,
+  "canvas_px": {
+    "width": 1280,
+    "height": 720
+  },
+  "slides": [
+    {
+      "slide_index": 1,
+      "page_type": "cover_candidate",
+      "text_summary": "东风集团 × 艾博连科技\n90天客户机会验证与POC推进计划\n重新定义：从201c30天作战手册201d升级为完整的90天四阶段执行框架\n核心主线：华为联合方案 + 东风出口座舱智能化  |  备份路线：国内车型体验增强方案\n版本：V2.0 | 基于决策记录 2026-07-28 重新编制",
+      "slots": [
+        {
+          "slot_id": "s01_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 6
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s01_sh3",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 714,
+            "width": 1280,
+            "height": 6
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s01_sh4",
+          "role": "title_candidate",
+          "text": "东风集团 × 艾博连科技",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 126,
+            "width": 1050,
+            "height": 84
+          },
+          "text_metrics": {
+            "font_size_px": 53.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh5",
+          "role": "label_candidate",
+          "text": "90天客户机会验证与POC推进计划",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 210,
+            "width": 1050,
+            "height": 63
+          },
+          "text_metrics": {
+            "font_size_px": 42.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh6",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 96,
+            "y": 283,
+            "width": 210,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s01_sh7",
+          "role": "label_candidate",
+          "text": "重新定义：从201c30天作战手册201d升级为完整的90天四阶段执行框架",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 304,
+            "width": 945,
+            "height": 52
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh8",
+          "role": "label_candidate",
+          "text": "核心主线：华为联合方案 + 东风出口座舱智能化  |  备份路线：国内车型体验增强方案",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 336,
+            "width": 945,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh9",
+          "role": "label_candidate",
+          "text": "版本：V2.0 | 基于决策记录 2026-07-28 重新编制",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 546,
+            "width": 945,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 2,
+      "page_type": "toc_candidate",
+      "text_summary": "目录\nCONTENTS\n01\n90天路线图总览\n四阶段架构 · 里程碑 · 输出物\n02\n核心原则与定位\n对外话术基调 · 证据分级体系\n03\n第1阶段：内部验证\n华为合作边界 · 产品成熟度 · 证据矩阵\n04\n第2阶段：客户发现\n需求确认 · 决策链 · 项目筛选\n05\n第3阶段：技术适配\n合规预审 · POC定义 · 三方职责\n06\n第4阶段：商务立项\n供应商准入 · 采购流程\n07\n90天里程碑检查点\n第7天 · 第30天 · 第60天 · 第90天\n08\n销售管理工具清单\n8个核心工具与使用时机\n09\n风险矩阵\n关键风险与应对策略\n2/18",
+      "slots": [
+        {
+          "slot_id": "s02_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh3",
+          "role": "title_candidate",
+          "text": "目录",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh4",
+          "role": "title_candidate",
+          "text": "CONTENTS",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 115,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh7",
+          "role": "title_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 120,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh8",
+          "role": "title_candidate",
+          "text": "90天路线图总览",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 115,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh9",
+          "role": "title_candidate",
+          "text": "四阶段架构 · 里程碑 · 输出物",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 144,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh10",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 181,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh11",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 185,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh12",
+          "role": "label_candidate",
+          "text": "核心原则与定位",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 181,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh13",
+          "role": "label_candidate",
+          "text": "对外话术基调 · 证据分级体系",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 209,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh14",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 246,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh15",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 250,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh16",
+          "role": "label_candidate",
+          "text": "第1阶段：内部验证",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 246,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh17",
+          "role": "label_candidate",
+          "text": "华为合作边界 · 产品成熟度 · 证据矩阵",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 274,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh18",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 311,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh19",
+          "role": "label_candidate",
+          "text": "04",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 316,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh20",
+          "role": "label_candidate",
+          "text": "第2阶段：客户发现",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 311,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh21",
+          "role": "label_candidate",
+          "text": "需求确认 · 决策链 · 项目筛选",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 340,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh22",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 376,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh23",
+          "role": "label_candidate",
+          "text": "05",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 381,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh24",
+          "role": "label_candidate",
+          "text": "第3阶段：技术适配",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 376,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh25",
+          "role": "label_candidate",
+          "text": "合规预审 · POC定义 · 三方职责",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 405,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh26",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 441,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh27",
+          "role": "label_candidate",
+          "text": "06",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 446,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh28",
+          "role": "label_candidate",
+          "text": "第4阶段：商务立项",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 441,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh29",
+          "role": "label_candidate",
+          "text": "供应商准入 · 采购流程",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 470,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh30",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 506,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh31",
+          "role": "label_candidate",
+          "text": "07",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 511,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh32",
+          "role": "label_candidate",
+          "text": "90天里程碑检查点",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 506,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh33",
+          "role": "label_candidate",
+          "text": "第7天 · 第30天 · 第60天 · 第90天",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 535,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh34",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 571,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh35",
+          "role": "label_candidate",
+          "text": "08",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 576,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh36",
+          "role": "label_candidate",
+          "text": "销售管理工具清单",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 571,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh37",
+          "role": "label_candidate",
+          "text": "8个核心工具与使用时机",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 600,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh38",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 58,
+            "y": 636,
+            "width": 43,
+            "height": 43
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s02_sh39",
+          "role": "label_candidate",
+          "text": "09",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 641,
+            "width": 43,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 26.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh40",
+          "role": "label_candidate",
+          "text": "风险矩阵",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 636,
+            "width": 525,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh41",
+          "role": "label_candidate",
+          "text": "关键风险与应对策略",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 115,
+            "y": 665,
+            "width": 525,
+            "height": 14
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh42",
+          "role": "label_candidate",
+          "text": "2/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 3,
+      "page_type": "content_candidate",
+      "text_summary": "90天路线图总览\nFOUR-PHASE FRAMEWORK\n1\n第1阶段：内部验证\n第1周\n确认华为合作边界产品能力自评证据矩阵建立\n2\n第2阶段：客户发现\n第2-4周\n客户需求确认决策链梳理目标项目筛选\n3\n第3阶段：技术适配\n第5-8周\n合规预审POC定义三方职责确认\n4\n第4阶段：商务立项\n第9-12周\n供应商准入商务提案下一阶段锁定\n3/18",
+      "slots": [
+        {
+          "slot_id": "s03_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh3",
+          "role": "title_candidate",
+          "text": "90天路线图总览",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh4",
+          "role": "title_candidate",
+          "text": "FOUR-PHASE FRAMEWORK",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 157,
+            "width": 1176,
+            "height": 6
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 142,
+            "width": 37,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh8",
+          "role": "title_candidate",
+          "text": "1",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 145,
+            "width": 37,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh9",
+          "role": "label_candidate",
+          "text": "第1阶段：内部验证",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 38,
+            "y": 189,
+            "width": 262,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh10",
+          "role": "label_candidate",
+          "text": "第1周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 38,
+            "y": 220,
+            "width": 262,
+            "height": 24
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh11",
+          "role": "label_candidate",
+          "text": "确认华为合作边界产品能力自评证据矩阵建立",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 38,
+            "y": 252,
+            "width": 262,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh12",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 336,
+            "y": 142,
+            "width": 37,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh13",
+          "role": "title_candidate",
+          "text": "2",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 336,
+            "y": 145,
+            "width": 37,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh14",
+          "role": "label_candidate",
+          "text": "第2阶段：客户发现",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 326,
+            "y": 189,
+            "width": 262,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh15",
+          "role": "label_candidate",
+          "text": "第2-4周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 326,
+            "y": 220,
+            "width": 262,
+            "height": 24
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh16",
+          "role": "label_candidate",
+          "text": "客户需求确认决策链梳理目标项目筛选",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 326,
+            "y": 252,
+            "width": 262,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh17",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 624,
+            "y": 142,
+            "width": 37,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh18",
+          "role": "title_candidate",
+          "text": "3",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 624,
+            "y": 145,
+            "width": 37,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh19",
+          "role": "label_candidate",
+          "text": "第3阶段：技术适配",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 614,
+            "y": 189,
+            "width": 262,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh20",
+          "role": "label_candidate",
+          "text": "第5-8周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 614,
+            "y": 220,
+            "width": 262,
+            "height": 24
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh21",
+          "role": "label_candidate",
+          "text": "合规预审POC定义三方职责确认",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 614,
+            "y": 252,
+            "width": 262,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh22",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 912,
+            "y": 142,
+            "width": 37,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh23",
+          "role": "title_candidate",
+          "text": "4",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 912,
+            "y": 145,
+            "width": 37,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh24",
+          "role": "label_candidate",
+          "text": "第4阶段：商务立项",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 902,
+            "y": 189,
+            "width": 262,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh25",
+          "role": "label_candidate",
+          "text": "第9-12周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 902,
+            "y": 220,
+            "width": 262,
+            "height": 24
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh26",
+          "role": "label_candidate",
+          "text": "供应商准入商务提案下一阶段锁定",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 902,
+            "y": 252,
+            "width": 262,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh27",
+          "role": "label_candidate",
+          "text": "3/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 4,
+      "page_type": "content_candidate",
+      "text_summary": "核心原则与定位\n对外话术 · 证据分级 · 合规表述红线\n对外定位基调\n华为提供目标出口车型所需的海外车载生态和底层服务能力；艾博连在双方确认的接口范围内，负责跨品牌场景编排、HMI适配、Agent协同和运营管理。首次交流：先确认车型、市场、现有架构和未解决问题，再判断是否适合展开小范围技术验证。\n核心禁止事项\n✗ 不编造客户案例✗ 不将GDPR简单表述为“脱敏后可跨境传输”✗ 不将PDPA统一为“必须本地存储”✗ 不将UN R156等同于“有OTA通道即可满足合规”✗ 不使用“一次对接、底层+上层全部覆盖”等强承诺\n▼ 证据分级体系\n🟢 已确认\n有合同、邮件、内部负责人或正式资料支持\n🟡 待确认\n已有口头信息，但还不能作为对外承诺\n🔴 销售假设\n基于公开信息或逻辑推断，需客户访谈验证\n▼ 关键待确认事项\n🟡  华为关系是否可公开使用、是否允许联合拜访\n🟡  HMS与艾博连的接口边界、联合报价和合同主体\n🟡  全球化Demo是真集成还是能力展示\n🟡  GDPR/PDPA及OTA合规能力的实际证据\n4/18",
+      "slots": [
+        {
+          "slot_id": "s04_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh3",
+          "role": "title_candidate",
+          "text": "核心原则与定位",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh4",
+          "role": "title_candidate",
+          "text": "对外话术 · 证据分级 · 合规表述红线",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 567,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh8",
+          "role": "title_candidate",
+          "text": "对外定位基调",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 548,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh9",
+          "role": "body_candidate",
+          "text": "华为提供目标出口车型所需的海外车载生态和底层服务能力；艾博连在双方确认的接口范围内，负责跨品牌场景编排、HMI适配、Agent协同和运营管理。首次交流：先确认车型、市场、现有架构和未解决问题，再判断是否适合展开小范围技术验证。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 548,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 630,
+            "y": 115,
+            "width": 598,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 630,
+            "y": 115,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh12",
+          "role": "title_candidate",
+          "text": "核心禁止事项",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 640,
+            "y": 125,
+            "width": 579,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh13",
+          "role": "body_candidate",
+          "text": "✗ 不编造客户案例✗ 不将GDPR简单表述为“脱敏后可跨境传输”✗ 不将PDPA统一为“必须本地存储”✗ 不将UN R156等同于“有OTA通道即可满足合规”✗ 不使用“一次对接、底层+上层全部覆盖”等强承诺",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 640,
+            "y": 163,
+            "width": 579,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh14",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 304,
+            "width": 1184,
+            "height": 0
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh15",
+          "role": "label_candidate",
+          "text": "▼ 证据分级体系",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 315,
+            "width": 525,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh16",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 357,
+            "width": 378,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh17",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 357,
+            "width": 6,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh18",
+          "role": "label_candidate",
+          "text": "🟢 已确认",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 367,
+            "width": 359,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh19",
+          "role": "label_candidate",
+          "text": "有合同、邮件、内部负责人或正式资料支持",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 405,
+            "width": 359,
+            "height": 16
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh20",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 447,
+            "y": 357,
+            "width": 378,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh21",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 447,
+            "y": 357,
+            "width": 6,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh22",
+          "role": "label_candidate",
+          "text": "🟡 待确认",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 457,
+            "y": 367,
+            "width": 359,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh23",
+          "role": "label_candidate",
+          "text": "已有口头信息，但还不能作为对外承诺",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 457,
+            "y": 405,
+            "width": 359,
+            "height": 16
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh24",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 846,
+            "y": 357,
+            "width": 378,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh25",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 846,
+            "y": 357,
+            "width": 6,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh26",
+          "role": "label_candidate",
+          "text": "🔴 销售假设",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 856,
+            "y": 367,
+            "width": 359,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh27",
+          "role": "label_candidate",
+          "text": "基于公开信息或逻辑推断，需客户访谈验证",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 856,
+            "y": 405,
+            "width": 359,
+            "height": 16
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh28",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 451,
+            "width": 1184,
+            "height": 0
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh29",
+          "role": "label_candidate",
+          "text": "▼ 关键待确认事项",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 462,
+            "width": 525,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 21.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh30",
+          "role": "label_candidate",
+          "text": "🟡  华为关系是否可公开使用、是否允许联合拜访",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 504,
+            "width": 1102,
+            "height": 21
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh31",
+          "role": "label_candidate",
+          "text": "🟡  HMS与艾博连的接口边界、联合报价和合同主体",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 530,
+            "width": 1102,
+            "height": 21
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh32",
+          "role": "label_candidate",
+          "text": "🟡  全球化Demo是真集成还是能力展示",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 556,
+            "width": 1102,
+            "height": 21
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh33",
+          "role": "label_candidate",
+          "text": "🟡  GDPR/PDPA及OTA合规能力的实际证据",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 583,
+            "width": 1102,
+            "height": 21
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh34",
+          "role": "label_candidate",
+          "text": "4/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 5,
+      "page_type": "content_candidate",
+      "text_summary": "第1阶段：内部验证（第1周）\nPHASE 1\n任务1：确认华为合作边界\n• 确认华为侧对接人及东风引荐路径• 确认双方定位：接口边界、报价模式、合同主体• 确认联合拜访话术能否公开使用“华为关系”• 产出：《华为×艾博连合作边界确认表》\n任务2：产品能力自评\n• 完成全球化Demo和产品成熟度评审• 建立《出口座舱能力与证据矩阵》• 分级标注：已量产 / 预研中 / 规划中• 明确哪些功能可现场演示，哪些仅可PPT展示\n任务3：确定目标项目\n• 至少确定一个目标项目或目标车型• 收集该车型的现有座舱方案信息• 识别车型SOP窗口和当前项目阶段• 产出：《目标车型/项目假设表》\n5/18",
+      "slots": [
+        {
+          "slot_id": "s05_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh3",
+          "role": "title_candidate",
+          "text": "第1阶段：内部验证（第1周）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh4",
+          "role": "title_candidate",
+          "text": "PHASE 1",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 1176,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh8",
+          "role": "title_candidate",
+          "text": "任务1：确认华为合作边界",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh9",
+          "role": "body_candidate",
+          "text": "• 确认华为侧对接人及东风引荐路径• 确认双方定位：接口边界、报价模式、合同主体• 确认联合拜访话术能否公开使用“华为关系”• 产出：《华为×艾博连合作边界确认表》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 1157,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh10",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 304,
+            "width": 1176,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh11",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 304,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh12",
+          "role": "label_candidate",
+          "text": "任务2：产品能力自评",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 314,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh13",
+          "role": "body_candidate",
+          "text": "• 完成全球化Demo和产品成熟度评审• 建立《出口座舱能力与证据矩阵》• 分级标注：已量产 / 预研中 / 规划中• 明确哪些功能可现场演示，哪些仅可PPT展示",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 352,
+            "width": 1157,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh14",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 493,
+            "width": 1176,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh15",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 493,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s05_sh16",
+          "role": "label_candidate",
+          "text": "任务3：确定目标项目",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 503,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh17",
+          "role": "body_candidate",
+          "text": "• 至少确定一个目标项目或目标车型• 收集该车型的现有座舱方案信息• 识别车型SOP窗口和当前项目阶段• 产出：《目标车型/项目假设表》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 541,
+            "width": 1157,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh18",
+          "role": "label_candidate",
+          "text": "5/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 6,
+      "page_type": "chapter_candidate",
+      "text_summary": "合作边界确认表\nHUAWEI x ABLINK PARTNERSHIP BOUNDARY CHECKLIST\n6/18\n确认项\n当前状态\n负责人\n截止日\n联合拜访话术是否可公开使用“华为关系”\n🟡 待确认\n——\n第1周\nHMS与艾博连接口边界定义\n🔴 销售假设\n——\n第1-2周\n联合报价模式和合同主体\n🔴 销售假设\n——\n第2周\n联合方案Demo集成深度确认\n🔴 销售假设\n——\n第1周\n双方交付边界（谁做什么）\n🔴 销售假设\n——\n第1-2周",
+      "slots": [
+        {
+          "slot_id": "s06_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s06_sh3",
+          "role": "title_candidate",
+          "text": "合作边界确认表",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh4",
+          "role": "title_candidate",
+          "text": "HUAWEI x ABLINK PARTNERSHIP BOUNDARY CHECKLIST",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s06_sh7",
+          "role": "label_candidate",
+          "text": "6/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s06_sh6",
+          "role": "body_candidate",
+          "text": "确认项\n当前状态\n负责人\n截止日\n联合拜访话术是否可公开使用“华为关系”\n🟡 待确认\n——\n第1周\nHMS与艾博连接口边界定义\n🔴 销售假设\n——\n第1-2周\n联合报价模式和合同主体\n🔴 销售假设\n——\n第2周\n联合方案Demo集成深度确认\n🔴 销售假设\n——\n第1周\n双方交付边界（谁做什么）\n🔴 销售假设\n——\n第1-2周",
+          "paragraph_count": 24,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 1165,
+            "height": 294
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 24
+          }
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "s06_tbl6",
+          "row_count": 6,
+          "column_count": 4,
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                {
+                  "row": 0,
+                  "col": 0,
+                  "text": "确认项",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 0,
+                  "col": 1,
+                  "text": "当前状态",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 2,
+                  "text": "负责人",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 3,
+                  "text": "截止日",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "text": "联合拜访话术是否可公开使用“华为关系”",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 1,
+                  "col": 1,
+                  "text": "🟡 待确认",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 2,
+                  "text": "——",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 1,
+                  "col": 3,
+                  "text": "第1周",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                {
+                  "row": 2,
+                  "col": 0,
+                  "text": "HMS与艾博连接口边界定义",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 2,
+                  "col": 1,
+                  "text": "🔴 销售假设",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 2,
+                  "text": "——",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 2,
+                  "col": 3,
+                  "text": "第1-2周",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                {
+                  "row": 3,
+                  "col": 0,
+                  "text": "联合报价模式和合同主体",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 3,
+                  "col": 1,
+                  "text": "🔴 销售假设",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 2,
+                  "text": "——",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 3,
+                  "col": 3,
+                  "text": "第2周",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                {
+                  "row": 4,
+                  "col": 0,
+                  "text": "联合方案Demo集成深度确认",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 4,
+                  "col": 1,
+                  "text": "🔴 销售假设",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 4,
+                  "col": 2,
+                  "text": "——",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 4,
+                  "col": 3,
+                  "text": "第1周",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                {
+                  "row": 5,
+                  "col": 0,
+                  "text": "双方交付边界（谁做什么）",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 5,
+                  "col": 1,
+                  "text": "🔴 销售假设",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 5,
+                  "col": 2,
+                  "text": "——",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 5,
+                  "col": 3,
+                  "text": "第1-2周",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 3
+                }
+              ]
+            }
+          ],
+          "merge_topology": {
+            "has_merges": false,
+            "anchors": [],
+            "slave_cells": []
+          }
+        }
+      ],
+      "charts": [],
+      "diagrams": [],
+      "fill_risk": {
+        "has_non_text_content": true,
+        "kinds": [
+          "table"
+        ],
+        "reason": "has non-text content (table) that text-fill does not replace automatically; cover tables/charts with explicit edits"
+      }
+    },
+    {
+      "slide_index": 7,
+      "page_type": "content_candidate",
+      "text_summary": "第2阶段：客户发现（第2-4周）\nPHASE 2\n任务1：有效客户沟通\n• 完成至少2次有效客户沟通• 找到业务和技术联系人• 识别目标市场、车型、项目阶段• 识别至少3个真实痛点• 获得第二次技术交流机会产出：《客户需求访谈纪要》\n任务2：决策链梳理\n• 绘制东风智能座舱采购决策链• 识别关键决策人、技术评估人• 确认各角色的关注点和优先级• 梳理现有供应商关系产出：《东风账户地图》\n任务3：项目筛选\n• 梳理东风出口车型矩阵• 识别最适合切入的目标项目• 评估项目需求匹配度、预算、时间窗口• 确认主线和备线产出：《目标项目资格评分表》\n7/18",
+      "slots": [
+        {
+          "slot_id": "s07_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh3",
+          "role": "title_candidate",
+          "text": "第2阶段：客户发现（第2-4周）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh4",
+          "role": "title_candidate",
+          "text": "PHASE 2",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 388,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh8",
+          "role": "title_candidate",
+          "text": "任务1：有效客户沟通",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 369,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh9",
+          "role": "body_candidate",
+          "text": "• 完成至少2次有效客户沟通• 找到业务和技术联系人• 识别目标市场、车型、项目阶段• 识别至少3个真实痛点• 获得第二次技术交流机会产出：《客户需求访谈纪要》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 369,
+            "height": 488
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 457,
+            "y": 115,
+            "width": 388,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 457,
+            "y": 115,
+            "width": 6,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh12",
+          "role": "title_candidate",
+          "text": "任务2：决策链梳理",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 467,
+            "y": 125,
+            "width": 369,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh13",
+          "role": "body_candidate",
+          "text": "• 绘制东风智能座舱采购决策链• 识别关键决策人、技术评估人• 确认各角色的关注点和优先级• 梳理现有供应商关系产出：《东风账户地图》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 467,
+            "y": 163,
+            "width": 369,
+            "height": 488
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh14",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 867,
+            "y": 115,
+            "width": 388,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh15",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 867,
+            "y": 115,
+            "width": 6,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s07_sh16",
+          "role": "title_candidate",
+          "text": "任务3：项目筛选",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 876,
+            "y": 125,
+            "width": 369,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh17",
+          "role": "body_candidate",
+          "text": "• 梳理东风出口车型矩阵• 识别最适合切入的目标项目• 评估项目需求匹配度、预算、时间窗口• 确认主线和备线产出：《目标项目资格评分表》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 876,
+            "y": 163,
+            "width": 369,
+            "height": 488
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s07_sh18",
+          "role": "label_candidate",
+          "text": "7/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 8,
+      "page_type": "content_candidate",
+      "text_summary": "第3阶段：技术适配（第5-8周）\nPHASE 3\n合规预审要点\nGDPR：区分“数据处理者”和“数据控制者”责任不简单表述为“脱敏后可跨境传输”PDPA：按目标国家确认数据本地化要求不统一表述为“必须本地存储”UN R156：确认车型具体的软件更新合规路径不等同于“有OTA通道即可”产出：数据合规风险清单\nPOC定义\n1. 确认POC范围：功能、场景、车型2. 确认资源：艾博连人力/周期/技术支持   华为集成支持   东风配合资源3. 确认周期：分阶段交付节点4. 确认成功标准：可量化验收指标产出：《POC任务书》\n三方职责边界（建议框架）\n华为 → 海外车载生态与底层服务能力：HMS Core、GMS、出海合规基础设施艾博连 → 跨品牌场景编排、HMI适配、Agent协同、运营管理东风 → 车型需求定义、实车验证、商务采购注意：以上为建议框架，需与华为和东风确认后再定稿\n8/18",
+      "slots": [
+        {
+          "slot_id": "s08_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh3",
+          "role": "title_candidate",
+          "text": "第3阶段：技术适配（第5-8周）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh4",
+          "role": "title_candidate",
+          "text": "PHASE 3",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 567,
+            "height": 231
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 231
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh8",
+          "role": "title_candidate",
+          "text": "合规预审要点",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 548,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh9",
+          "role": "body_candidate",
+          "text": "GDPR：区分“数据处理者”和“数据控制者”责任不简单表述为“脱敏后可跨境传输”PDPA：按目标国家确认数据本地化要求不统一表述为“必须本地存储”UN R156：确认车型具体的软件更新合规路径不等同于“有OTA通道即可”产出：数据合规风险清单",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 548,
+            "height": 173
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 630,
+            "y": 115,
+            "width": 598,
+            "height": 231
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 630,
+            "y": 115,
+            "width": 6,
+            "height": 231
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh12",
+          "role": "title_candidate",
+          "text": "POC定义",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 640,
+            "y": 125,
+            "width": 579,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh13",
+          "role": "body_candidate",
+          "text": "1. 确认POC范围：功能、场景、车型2. 确认资源：艾博连人力/周期/技术支持   华为集成支持   东风配合资源3. 确认周期：分阶段交付节点4. 确认成功标准：可量化验收指标产出：《POC任务书》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 640,
+            "y": 163,
+            "width": 579,
+            "height": 173
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh14",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 367,
+            "width": 1176,
+            "height": 189
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh15",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 367,
+            "width": 6,
+            "height": 189
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s08_sh16",
+          "role": "label_candidate",
+          "text": "三方职责边界（建议框架）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 377,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh17",
+          "role": "body_candidate",
+          "text": "华为 → 海外车载生态与底层服务能力：HMS Core、GMS、出海合规基础设施艾博连 → 跨品牌场景编排、HMI适配、Agent协同、运营管理东风 → 车型需求定义、实车验证、商务采购注意：以上为建议框架，需与华为和东风确认后再定稿",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 415,
+            "width": 1157,
+            "height": 131
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s08_sh18",
+          "role": "label_candidate",
+          "text": "8/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 9,
+      "page_type": "content_candidate",
+      "text_summary": "第4阶段：商务立项（第9-12周）\nPHASE 4\n任务1：供应商准入\n• 确认东风供应商准入流程和资质要求• 准备准入资料（公司资质、案例、方案报价）• 寻找内部推动人加速审批• 产出：《采购流程图和机会卡》\n任务2：商务提案\n• 基于POC结果形成正式商务提案• 明确报价模型：按项目/按车型/按功能模块• 准备TCO对比（vs自研 + vs其他供应商）• 突出“不上这个方案的代价”\n任务3：下一阶段锁定\n• 争取至少一项结果：① 付费POC / ② 联合预研或技术合作协议 / ③ 东风正式供应商评估流程• 若未达成，记录原因、阻塞项和下次触达日期• 不以“持续跟进”作结案结论\n9/18",
+      "slots": [
+        {
+          "slot_id": "s09_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh3",
+          "role": "title_candidate",
+          "text": "第4阶段：商务立项（第9-12周）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh4",
+          "role": "title_candidate",
+          "text": "PHASE 4",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 1176,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh8",
+          "role": "title_candidate",
+          "text": "任务1：供应商准入",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh9",
+          "role": "body_candidate",
+          "text": "• 确认东风供应商准入流程和资质要求• 准备准入资料（公司资质、案例、方案报价）• 寻找内部推动人加速审批• 产出：《采购流程图和机会卡》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 1157,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh10",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 304,
+            "width": 1176,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh11",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 304,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh12",
+          "role": "label_candidate",
+          "text": "任务2：商务提案",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 314,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh13",
+          "role": "body_candidate",
+          "text": "• 基于POC结果形成正式商务提案• 明确报价模型：按项目/按车型/按功能模块• 准备TCO对比（vs自研 + vs其他供应商）• 突出“不上这个方案的代价”",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 352,
+            "width": 1157,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh14",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 493,
+            "width": 1176,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh15",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 493,
+            "width": 6,
+            "height": 168
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s09_sh16",
+          "role": "label_candidate",
+          "text": "任务3：下一阶段锁定",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 503,
+            "width": 1157,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh17",
+          "role": "label_candidate",
+          "text": "• 争取至少一项结果：① 付费POC / ② 联合预研或技术合作协议 / ③ 东风正式供应商评估流程• 若未达成，记录原因、阻塞项和下次触达日期• 不以“持续跟进”作结案结论",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 541,
+            "width": 1157,
+            "height": 110
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s09_sh18",
+          "role": "label_candidate",
+          "text": "9/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 10,
+      "page_type": "content_candidate",
+      "text_summary": "90天里程碑检查点\nMILESTONE CHECKPOINTS\n第7天  内部验证完成\n✔ 华为合作边界和对外话术确认✔ 华为侧对接人及东风引荐路径确认✔ 全球化Demo和产品成熟度评审完成✔ 至少确定一个目标项目或车型\n第30天  客户发现完成\n✔ 完成至少2次有效客户沟通✔ 找到业务和技术联系人✔ 识别目标市场、车型、项目阶段和SOP窗口✔ 识别至少3个真实客户痛点✔ 获得第二次技术交流或POC讨论机会\n第60天  技术适配完成\n✔ 形成需求说明、接口清单、数据合规风险清单✔ 明确华为/艾博连/东风三方职责✔ 完成POC定义（范围、资源、周期、成功标准）✔ 启动供应商准入和商务流程确认\n第90天  商务推进完成\n争取至少一项结果：① 付费POC② 联合预研或技术合作协议③ 进入东风正式供应商/项目评估流程⚠ 若未达成：记录原因、阻塞项和下次触达日期\n10/18",
+      "slots": [
+        {
+          "slot_id": "s10_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s10_sh3",
+          "role": "title_candidate",
+          "text": "90天里程碑检查点",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh4",
+          "role": "title_candidate",
+          "text": "MILESTONE CHECKPOINTS",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s10_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 283,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s10_sh7",
+          "role": "title_candidate",
+          "text": "第7天  内部验证完成",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 119,
+            "width": 283,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh8",
+          "role": "body_candidate",
+          "text": "✔ 华为合作边界和对外话术确认✔ 华为侧对接人及东风引荐路径确认✔ 全球化Demo和产品成熟度评审完成✔ 至少确定一个目标项目或车型",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 168,
+            "width": 283,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh9",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 352,
+            "y": 115,
+            "width": 283,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s10_sh10",
+          "role": "title_candidate",
+          "text": "第30天  客户发现完成",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 352,
+            "y": 119,
+            "width": 283,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh11",
+          "role": "body_candidate",
+          "text": "✔ 完成至少2次有效客户沟通✔ 找到业务和技术联系人✔ 识别目标市场、车型、项目阶段和SOP窗口✔ 识别至少3个真实客户痛点✔ 获得第二次技术交流或POC讨论机会",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 352,
+            "y": 168,
+            "width": 283,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh12",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 657,
+            "y": 115,
+            "width": 283,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s10_sh13",
+          "role": "title_candidate",
+          "text": "第60天  技术适配完成",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 657,
+            "y": 119,
+            "width": 283,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh14",
+          "role": "body_candidate",
+          "text": "✔ 形成需求说明、接口清单、数据合规风险清单✔ 明确华为/艾博连/东风三方职责✔ 完成POC定义（范围、资源、周期、成功标准）✔ 启动供应商准入和商务流程确认",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 657,
+            "y": 168,
+            "width": 283,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh15",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 961,
+            "y": 115,
+            "width": 283,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s10_sh16",
+          "role": "title_candidate",
+          "text": "第90天  商务推进完成",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 961,
+            "y": 119,
+            "width": 283,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh17",
+          "role": "body_candidate",
+          "text": "争取至少一项结果：① 付费POC② 联合预研或技术合作协议③ 进入东风正式供应商/项目评估流程⚠ 若未达成：记录原因、阻塞项和下次触达日期",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 961,
+            "y": 168,
+            "width": 283,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s10_sh18",
+          "role": "label_candidate",
+          "text": "10/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 11,
+      "page_type": "content_candidate",
+      "text_summary": "销售管理工具清单\nSALES ENABLEMENT TOOLKIT\n《华为×艾博连合作边界确认表》\n确认双方定位、接口、报价、话术一致性\n《出口座舱能力与证据矩阵》\n已量产/预研/规划的分级，证据状态标注\n《东风账户地图》\n联系人、决策链、引荐关系全览\n《目标车型/项目假设表》\n出口车型/SOP时间/方案现状\n《客户需求访谈纪要》\n痛点、反馈、下一步行动\n《目标项目资格评分表》\n优先级排序：需求×预算×匹配度\n《POC任务书》\n范围、资源、周期、成功标准\n《采购流程图和机会卡》\n准入流程 + 当前进度\n11/18",
+      "slots": [
+        {
+          "slot_id": "s11_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh3",
+          "role": "title_candidate",
+          "text": "销售管理工具清单",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh4",
+          "role": "title_candidate",
+          "text": "SALES ENABLEMENT TOOLKIT",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 38,
+            "y": 115,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 38,
+            "y": 115,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh8",
+          "role": "title_candidate",
+          "text": "《华为×艾博连合作边界确认表》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh9",
+          "role": "label_candidate",
+          "text": "确认双方定位、接口、报价、话术一致性",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 163,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 348,
+            "y": 115,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 348,
+            "y": 115,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh12",
+          "role": "title_candidate",
+          "text": "《出口座舱能力与证据矩阵》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 358,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh13",
+          "role": "label_candidate",
+          "text": "已量产/预研/规划的分级，证据状态标注",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 358,
+            "y": 163,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh14",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 658,
+            "y": 115,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh15",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 658,
+            "y": 115,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh16",
+          "role": "title_candidate",
+          "text": "《东风账户地图》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 667,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh17",
+          "role": "label_candidate",
+          "text": "联系人、决策链、引荐关系全览",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 667,
+            "y": 163,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh18",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 968,
+            "y": 115,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh19",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 968,
+            "y": 115,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh20",
+          "role": "title_candidate",
+          "text": "《目标车型/项目假设表》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 977,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh21",
+          "role": "label_candidate",
+          "text": "出口车型/SOP时间/方案现状",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 977,
+            "y": 163,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh22",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 38,
+            "y": 262,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh23",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 38,
+            "y": 262,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh24",
+          "role": "label_candidate",
+          "text": "《客户需求访谈纪要》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 272,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh25",
+          "role": "label_candidate",
+          "text": "痛点、反馈、下一步行动",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 48,
+            "y": 310,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh26",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 348,
+            "y": 262,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh27",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 348,
+            "y": 262,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh28",
+          "role": "label_candidate",
+          "text": "《目标项目资格评分表》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 358,
+            "y": 272,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh29",
+          "role": "label_candidate",
+          "text": "优先级排序：需求×预算×匹配度",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 358,
+            "y": 310,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh30",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 658,
+            "y": 262,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh31",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 658,
+            "y": 262,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh32",
+          "role": "label_candidate",
+          "text": "《POC任务书》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 667,
+            "y": 272,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh33",
+          "role": "label_candidate",
+          "text": "范围、资源、周期、成功标准",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 667,
+            "y": 310,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh34",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 968,
+            "y": 262,
+            "width": 294,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh35",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 968,
+            "y": 262,
+            "width": 6,
+            "height": 126
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s11_sh36",
+          "role": "label_candidate",
+          "text": "《采购流程图和机会卡》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 977,
+            "y": 272,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh37",
+          "role": "label_candidate",
+          "text": "准入流程 + 当前进度",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 977,
+            "y": 310,
+            "width": 275,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s11_sh38",
+          "role": "label_candidate",
+          "text": "11/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 12,
+      "page_type": "content_candidate",
+      "text_summary": "风险矩阵\nRISK MATRIX\n12/18\n风险项\n概率\n影响\n应对策略\n华为引荐后对方仍无兴趣\n低\n高\n有引荐不代表有需求。验明紧迫度后调整策略\n联合方案集成度不够\n中\n高\n第1周验证。如不够，话术降级：方案层面已谈妥，集成进行中\n华为引荐到的是非决策层\n中\n中\n第1周确认引荐对象是否在决策链上\n产品成熟度不足以支撑POC\n中\n中\n诚实告知联合预研中，定位为首批合作方，缩小POC范围\n东风出口节奏或预算调整\n中\n高\n跟踪东风出口战略和预算周期，备线随时激活\n合规能力证据不足\n高\n高\n第1-4周优先完成合规证据收集，引入第三方合规咨询",
+      "slots": [
+        {
+          "slot_id": "s12_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s12_sh3",
+          "role": "title_candidate",
+          "text": "风险矩阵",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh4",
+          "role": "title_candidate",
+          "text": "RISK MATRIX",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s12_sh7",
+          "role": "label_candidate",
+          "text": "12/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s12_sh6",
+          "role": "body_candidate",
+          "text": "风险项\n概率\n影响\n应对策略\n华为引荐后对方仍无兴趣\n低\n高\n有引荐不代表有需求。验明紧迫度后调整策略\n联合方案集成度不够\n中\n高\n第1周验证。如不够，话术降级：方案层面已谈妥，集成进行中\n华为引荐到的是非决策层\n中\n中\n第1周确认引荐对象是否在决策链上\n产品成熟度不足以支撑POC\n中\n中\n诚实告知联合预研中，定位为首批合作方，缩小POC范围\n东风出口节奏或预算调整\n中\n高\n跟踪东风出口战略和预算周期，备线随时激活\n合规能力证据不足\n高\n高\n第1-4周优先完成合规证据收集，引入第三方合规咨询",
+          "paragraph_count": 28,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 1176,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 28
+          }
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "s12_tbl6",
+          "row_count": 8,
+          "column_count": 4,
+          "rows": [
+            {
+              "row": 0,
+              "cells": [
+                {
+                  "row": 0,
+                  "col": 0,
+                  "text": "风险项",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 0,
+                  "col": 1,
+                  "text": "概率",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 0,
+                  "col": 2,
+                  "text": "影响",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 0,
+                  "col": 3,
+                  "text": "应对策略",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 0,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 1,
+              "cells": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "text": "华为引荐后对方仍无兴趣",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 1,
+                  "col": 1,
+                  "text": "低",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 1,
+                  "col": 2,
+                  "text": "高",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 1,
+                  "col": 3,
+                  "text": "有引荐不代表有需求。验明紧迫度后调整策略",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 1,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 2,
+              "cells": [
+                {
+                  "row": 2,
+                  "col": 0,
+                  "text": "联合方案集成度不够",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 2,
+                  "col": 1,
+                  "text": "中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 2,
+                  "col": 2,
+                  "text": "高",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 2,
+                  "col": 3,
+                  "text": "第1周验证。如不够，话术降级：方案层面已谈妥，集成进行中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 2,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 3,
+              "cells": [
+                {
+                  "row": 3,
+                  "col": 0,
+                  "text": "华为引荐到的是非决策层",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 3,
+                  "col": 1,
+                  "text": "中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 3,
+                  "col": 2,
+                  "text": "中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 3,
+                  "col": 3,
+                  "text": "第1周确认引荐对象是否在决策链上",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 3,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 4,
+              "cells": [
+                {
+                  "row": 4,
+                  "col": 0,
+                  "text": "产品成熟度不足以支撑POC",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 4,
+                  "col": 1,
+                  "text": "中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 4,
+                  "col": 2,
+                  "text": "中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 4,
+                  "col": 3,
+                  "text": "诚实告知联合预研中，定位为首批合作方，缩小POC范围",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 4,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 5,
+              "cells": [
+                {
+                  "row": 5,
+                  "col": 0,
+                  "text": "东风出口节奏或预算调整",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 5,
+                  "col": 1,
+                  "text": "中",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 5,
+                  "col": 2,
+                  "text": "高",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 5,
+                  "col": 3,
+                  "text": "跟踪东风出口战略和预算周期，备线随时激活",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 5,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 6,
+              "cells": [
+                {
+                  "row": 6,
+                  "col": 0,
+                  "text": "合规能力证据不足",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 6,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 6,
+                  "col": 1,
+                  "text": "高",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 6,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 6,
+                  "col": 2,
+                  "text": "高",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 6,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 6,
+                  "col": 3,
+                  "text": "第1-4周优先完成合规证据收集，引入第三方合规咨询",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 6,
+                  "anchor_col": 3
+                }
+              ]
+            },
+            {
+              "row": 7,
+              "cells": [
+                {
+                  "row": 7,
+                  "col": 0,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 7,
+                  "anchor_col": 0
+                },
+                {
+                  "row": 7,
+                  "col": 1,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 7,
+                  "anchor_col": 1
+                },
+                {
+                  "row": 7,
+                  "col": 2,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 7,
+                  "anchor_col": 2
+                },
+                {
+                  "row": 7,
+                  "col": 3,
+                  "text": "",
+                  "merge_role": "none",
+                  "is_merge_anchor": false,
+                  "is_merge_slave": false,
+                  "row_span": 1,
+                  "col_span": 1,
+                  "h_merge": false,
+                  "v_merge": false,
+                  "anchor_row": 7,
+                  "anchor_col": 3
+                }
+              ]
+            }
+          ],
+          "merge_topology": {
+            "has_merges": false,
+            "anchors": [],
+            "slave_cells": []
+          }
+        }
+      ],
+      "charts": [],
+      "diagrams": [],
+      "fill_risk": {
+        "has_non_text_content": true,
+        "kinds": [
+          "table"
+        ],
+        "reason": "has non-text content (table) that text-fill does not replace automatically; cover tables/charts with explicit edits"
+      }
+    },
+    {
+      "slide_index": 13,
+      "page_type": "chapter_candidate",
+      "text_summary": "合规表述要点\nGDPR · PDPA · UN R156 · OTA\nGDPR\n简化表述（避免）：“车内数据脱敏后即可跨境传输”修正：需区分数据处理者/控制者责任，按目标市场确认数据传输合规路径。需确认：车型出口国家清单 → 各国合规要求 → 数据流图 → 差距分析\nPDPA\n简化表述（避免）：“必须本地存储”修正：按目标国家确认数据本地化要求。泰国、印尼、越南、马来西亚要求各不相同，部分允许有条件跨境传输。需出具具体国家的法律分析。\nUN R156\n简化表述（避免）：“有OTA通道即可满足合规”修正：需确认车型的软件更新管理体系（SUMS）、软件更新证书和安全相关更新规程。OTA通道是基础，还需完整的合规文档体系。\n华为合作定位\n简化表述（避免）：“华为做底层、艾博连做上层”修正：按目标车型和双方确认接口定义职责。华为提供海外车载生态和底层服务能力；艾博连在双方确认的接口范围内负责上层场景编排。\n13/18",
+      "slots": [
+        {
+          "slot_id": "s13_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh3",
+          "role": "title_candidate",
+          "text": "合规表述要点",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh4",
+          "role": "title_candidate",
+          "text": "GDPR · PDPA · UN R156 · OTA",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 110,
+            "width": 1176,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 110,
+            "width": 6,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh8",
+          "role": "title_candidate",
+          "text": "GDPR",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 120,
+            "width": 1102,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh9",
+          "role": "label_candidate",
+          "text": "简化表述（避免）：“车内数据脱敏后即可跨境传输”修正：需区分数据处理者/控制者责任，按目标市场确认数据传输合规路径。需确认：车型出口国家清单 → 各国合规要求 → 数据流图 → 差距分析",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 149,
+            "width": 1102,
+            "height": 94
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh10",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 259,
+            "width": 1176,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh11",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 259,
+            "width": 6,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh12",
+          "role": "label_candidate",
+          "text": "PDPA",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 269,
+            "width": 1102,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh13",
+          "role": "label_candidate",
+          "text": "简化表述（避免）：“必须本地存储”修正：按目标国家确认数据本地化要求。泰国、印尼、越南、马来西亚要求各不相同，部分允许有条件跨境传输。需出具具体国家的法律分析。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 298,
+            "width": 1102,
+            "height": 94
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh14",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 408,
+            "width": 1176,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh15",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 408,
+            "width": 6,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh16",
+          "role": "label_candidate",
+          "text": "UN R156",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 418,
+            "width": 1102,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh17",
+          "role": "label_candidate",
+          "text": "简化表述（避免）：“有OTA通道即可满足合规”修正：需确认车型的软件更新管理体系（SUMS）、软件更新证书和安全相关更新规程。OTA通道是基础，还需完整的合规文档体系。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 447,
+            "width": 1102,
+            "height": 94
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh18",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 557,
+            "width": 1176,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh19",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 557,
+            "width": 6,
+            "height": 136
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s13_sh20",
+          "role": "label_candidate",
+          "text": "华为合作定位",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 567,
+            "width": 1102,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh21",
+          "role": "label_candidate",
+          "text": "简化表述（避免）：“华为做底层、艾博连做上层”修正：按目标车型和双方确认接口定义职责。华为提供海外车载生态和底层服务能力；艾博连在双方确认的接口范围内负责上层场景编排。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 596,
+            "width": 1102,
+            "height": 94
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s13_sh22",
+          "role": "label_candidate",
+          "text": "13/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 14,
+      "page_type": "chapter_candidate",
+      "text_summary": "对外定位与参考话术\nPOSITIONING & SCRIPTS\n场景：首次交流开场\n定位：先了解再判断“我们了解到东风在出口座舱方面有一些部署，想先了解一下您这边目前：• 目标出口市场是哪些？• 当前座舱方案用了什么平台？• 在海外合规方面遇到过什么问题？根据您的情况，我们再判断是否适合做一个小范围技术验证。”\n场景：被问“你们和华为什么关系”\n定位：实事求是，不夸大“华为是我们的战略合作伙伴。在海外车载生态方面，华为提供 HMS/GMS 等底层服务能力；我们在双方确认的接口范围内，负责上层场景编排和HMI适配。具体的集成深度需要根据目标车型来确定，我们可以安排联合技术交流。”\n场景：被问“你们量产过吗”\n定位：诚实告知，定位为先发优势“我们的全球化座舱方案已经在几家头部主机厂启动量产项目，2026年下半年在部分车型落地。东风的项目如果现在启动联合预研，有机会成为首批搭载的品牌之一。具体量产时间线取决于项目启动时间和双方技术对接进度。”\n14/18",
+      "slots": [
+        {
+          "slot_id": "s14_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh3",
+          "role": "title_candidate",
+          "text": "对外定位与参考话术",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh4",
+          "role": "title_candidate",
+          "text": "POSITIONING & SCRIPTS",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 388,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh8",
+          "role": "title_candidate",
+          "text": "场景：首次交流开场",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 369,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh9",
+          "role": "body_candidate",
+          "text": "定位：先了解再判断“我们了解到东风在出口座舱方面有一些部署，想先了解一下您这边目前：• 目标出口市场是哪些？• 当前座舱方案用了什么平台？• 在海外合规方面遇到过什么问题？根据您的情况，我们再判断是否适合做一个小范围技术验证。”",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 369,
+            "height": 488
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 457,
+            "y": 115,
+            "width": 388,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 457,
+            "y": 115,
+            "width": 6,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh12",
+          "role": "title_candidate",
+          "text": "场景：被问“你们和华为什么关系”",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 467,
+            "y": 125,
+            "width": 369,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh13",
+          "role": "body_candidate",
+          "text": "定位：实事求是，不夸大“华为是我们的战略合作伙伴。在海外车载生态方面，华为提供 HMS/GMS 等底层服务能力；我们在双方确认的接口范围内，负责上层场景编排和HMI适配。具体的集成深度需要根据目标车型来确定，我们可以安排联合技术交流。”",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 467,
+            "y": 163,
+            "width": 369,
+            "height": 488
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh14",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 867,
+            "y": 115,
+            "width": 388,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh15",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 867,
+            "y": 115,
+            "width": 6,
+            "height": 546
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s14_sh16",
+          "role": "title_candidate",
+          "text": "场景：被问“你们量产过吗”",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 876,
+            "y": 125,
+            "width": 369,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh17",
+          "role": "body_candidate",
+          "text": "定位：诚实告知，定位为先发优势“我们的全球化座舱方案已经在几家头部主机厂启动量产项目，2026年下半年在部分车型落地。东风的项目如果现在启动联合预研，有机会成为首批搭载的品牌之一。具体量产时间线取决于项目启动时间和双方技术对接进度。”",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 876,
+            "y": 163,
+            "width": 369,
+            "height": 488
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s14_sh18",
+          "role": "label_candidate",
+          "text": "14/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 15,
+      "page_type": "content_candidate",
+      "text_summary": "主线和备线策略\nMAIN LINE & BACKUP\n🟢 主线：华为联合方案 + 东风出口座舱智能化\n目标：全球化座舱方案在东风出口车型落地核心价值：华为海外生态 + 艾博连场景编排 + 东风车型• 缩短海外合规认证周期• 降低多市场适配的集成复杂度切入：华为渠道引荐 → 以“出口合规和海外体验”为痛点 → 小范围POC优先级：商业价值★★★★★ | 落地难度★★★★ | 证据完善度★★★\n🟡 备线：国内车型体验增强\n目标：在东风国内车型上落地AI Link平台能力核心价值：AI Link + HMI随心变 + 语音端侧模型• 提升座舱智能化体验差异化• 快速迭代，不依赖海外合规流程切入：现有合作项目扩展场景 → 以“竞品差距”为痛点 → 小功能模块优先级：商业价值★★★ | 落地难度★★★ | 证据完善度★★★★切换条件：主线遇阻时自动激活备线\n15/18",
+      "slots": [
+        {
+          "slot_id": "s15_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s15_sh3",
+          "role": "title_candidate",
+          "text": "主线和备线策略",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh4",
+          "role": "title_candidate",
+          "text": "MAIN LINE & BACKUP",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s15_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 567,
+            "height": 535
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s15_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 535
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s15_sh8",
+          "role": "title_candidate",
+          "text": "🟢 主线：华为联合方案 + 东风出口座舱智能化",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 548,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh9",
+          "role": "body_candidate",
+          "text": "目标：全球化座舱方案在东风出口车型落地核心价值：华为海外生态 + 艾博连场景编排 + 东风车型• 缩短海外合规认证周期• 降低多市场适配的集成复杂度切入：华为渠道引荐 → 以“出口合规和海外体验”为痛点 → 小范围POC优先级：商业价值★★★★★ | 落地难度★★★★ | 证据完善度★★★",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 548,
+            "height": 478
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 630,
+            "y": 115,
+            "width": 598,
+            "height": 535
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s15_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 630,
+            "y": 115,
+            "width": 6,
+            "height": 535
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s15_sh12",
+          "role": "title_candidate",
+          "text": "🟡 备线：国内车型体验增强",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 640,
+            "y": 125,
+            "width": 579,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh13",
+          "role": "body_candidate",
+          "text": "目标：在东风国内车型上落地AI Link平台能力核心价值：AI Link + HMI随心变 + 语音端侧模型• 提升座舱智能化体验差异化• 快速迭代，不依赖海外合规流程切入：现有合作项目扩展场景 → 以“竞品差距”为痛点 → 小功能模块优先级：商业价值★★★ | 落地难度★★★ | 证据完善度★★★★切换条件：主线遇阻时自动激活备线",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 640,
+            "y": 163,
+            "width": 579,
+            "height": 478
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s15_sh14",
+          "role": "label_candidate",
+          "text": "15/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 16,
+      "page_type": "content_candidate",
+      "text_summary": "行动原则\nSALES PRINCIPLES\n先给价值再谈交易\n每次接触给客户一个他没意识到的痛点或行业洞察，而非先报价。让客户觉得和你对话有价值，不只是又一家供应商来推销。\n每次拜访必须约定下一步\n没有约定下一步行动（时间+动作）的拜访等于白去。离开时确认：下次交流时间、参与人、议题。让销售流程可预测、可管理。\n用量化里程碑管理进度\n第7天 → 第30天 → 第60天 → 第90天不像传统的 pipeline 管理那样模糊。每一个检查点都有明确的完成标准。\n诚实告知边界\n对非标需求不说“都能做”。建立信任的前提是不编造能力。对不确定的信息标注“待确认”而非假设为真。\n16/18",
+      "slots": [
+        {
+          "slot_id": "s16_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh3",
+          "role": "title_candidate",
+          "text": "行动原则",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh4",
+          "role": "title_candidate",
+          "text": "SALES PRINCIPLES",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 294,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh7",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 115,
+            "width": 6,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh8",
+          "role": "title_candidate",
+          "text": "先给价值再谈交易",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh9",
+          "role": "label_candidate",
+          "text": "每次接触给客户一个他没意识到的痛点或行业洞察，而非先报价。让客户觉得和你对话有价值，不只是又一家供应商来推销。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 163,
+            "width": 275,
+            "height": 467
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh10",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 358,
+            "y": 115,
+            "width": 294,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh11",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 358,
+            "y": 115,
+            "width": 6,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh12",
+          "role": "title_candidate",
+          "text": "每次拜访必须约定下一步",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 367,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh13",
+          "role": "label_candidate",
+          "text": "没有约定下一步行动（时间+动作）的拜访等于白去。离开时确认：下次交流时间、参与人、议题。让销售流程可预测、可管理。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 367,
+            "y": 163,
+            "width": 275,
+            "height": 467
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh14",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 667,
+            "y": 115,
+            "width": 294,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh15",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 667,
+            "y": 115,
+            "width": 6,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh16",
+          "role": "title_candidate",
+          "text": "用量化里程碑管理进度",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 677,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh17",
+          "role": "label_candidate",
+          "text": "第7天 → 第30天 → 第60天 → 第90天不像传统的 pipeline 管理那样模糊。每一个检查点都有明确的完成标准。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 677,
+            "y": 163,
+            "width": 275,
+            "height": 467
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh18",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 977,
+            "y": 115,
+            "width": 294,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh19",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 977,
+            "y": 115,
+            "width": 6,
+            "height": 525
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s16_sh20",
+          "role": "title_candidate",
+          "text": "诚实告知边界",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 987,
+            "y": 125,
+            "width": 275,
+            "height": 38
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh21",
+          "role": "label_candidate",
+          "text": "对非标需求不说“都能做”。建立信任的前提是不编造能力。对不确定的信息标注“待确认”而非假设为真。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 987,
+            "y": 163,
+            "width": 275,
+            "height": 467
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s16_sh22",
+          "role": "label_candidate",
+          "text": "16/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 17,
+      "page_type": "toc_candidate",
+      "text_summary": "启动前行动清单\nIMMEDIATE ACTIONS\n□  完成华为合作边界确认和对外话术对齐\n第1周\n□  建立《出口座舱能力与证据矩阵》\n第1周\n□  完成产品成熟度评审（哪些可演示）\n第1周\n□  确认至少一个目标项目或目标车型\n第1周\n□  准备首次客户沟通议程和访谈问题清单\n第2周前\n□  梳理东风出口车型矩阵和现有座舱方案\n第2周前\n□  准备合规能力证据清单（GDPR/PDPA/UN R156）\n第2周前\n□  制定备线启动触发条件\n第3周前\n□  建立决策链联系人初始列表\n第3周前\n□  准备《客户需求访谈纪要》模板\n随时\n17/18",
+      "slots": [
+        {
+          "slot_id": "s17_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh3",
+          "role": "title_candidate",
+          "text": "启动前行动清单",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 14,
+            "width": 1050,
+            "height": 58
+          },
+          "text_metrics": {
+            "font_size_px": 37.33,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh4",
+          "role": "title_candidate",
+          "text": "IMMEDIATE ACTIONS",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 58,
+            "y": 62,
+            "width": 1050,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 18.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh5",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 96,
+            "width": 1280,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh6",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 110,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh7",
+          "role": "title_candidate",
+          "text": "□  完成华为合作边界确认和对外话术对齐",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 115,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh8",
+          "role": "title_candidate",
+          "text": "第1周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 115,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh9",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 163,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh10",
+          "role": "label_candidate",
+          "text": "□  建立《出口座舱能力与证据矩阵》",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 168,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh11",
+          "role": "label_candidate",
+          "text": "第1周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 168,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh12",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 215,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh13",
+          "role": "label_candidate",
+          "text": "□  完成产品成熟度评审（哪些可演示）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 220,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh14",
+          "role": "label_candidate",
+          "text": "第1周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 220,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh15",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 268,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh16",
+          "role": "label_candidate",
+          "text": "□  确认至少一个目标项目或目标车型",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 273,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh17",
+          "role": "label_candidate",
+          "text": "第1周",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 273,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh18",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 320,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh19",
+          "role": "label_candidate",
+          "text": "□  准备首次客户沟通议程和访谈问题清单",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 325,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh20",
+          "role": "label_candidate",
+          "text": "第2周前",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 325,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh21",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 373,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh22",
+          "role": "label_candidate",
+          "text": "□  梳理东风出口车型矩阵和现有座舱方案",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 378,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh23",
+          "role": "label_candidate",
+          "text": "第2周前",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 378,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh24",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 425,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh25",
+          "role": "label_candidate",
+          "text": "□  准备合规能力证据清单（GDPR/PDPA/UN R156）",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 430,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh26",
+          "role": "label_candidate",
+          "text": "第2周前",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 430,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh27",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 478,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh28",
+          "role": "label_candidate",
+          "text": "□  制定备线启动触发条件",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 483,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh29",
+          "role": "label_candidate",
+          "text": "第3周前",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 483,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh30",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 530,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh31",
+          "role": "label_candidate",
+          "text": "□  建立决策链联系人初始列表",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 535,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh32",
+          "role": "label_candidate",
+          "text": "第3周前",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 535,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh33",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 48,
+            "y": 583,
+            "width": 1176,
+            "height": 44
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s17_sh34",
+          "role": "label_candidate",
+          "text": "□  准备《客户需求访谈纪要》模板",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 63,
+            "y": 588,
+            "width": 840,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh35",
+          "role": "label_candidate",
+          "text": "随时",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 945,
+            "y": 588,
+            "width": 262,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 14.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s17_sh36",
+          "role": "label_candidate",
+          "text": "17/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 18,
+      "page_type": "ending_candidate",
+      "text_summary": "Ready to Execute\n东风 × 艾博连 · 90天机会验证与POC推进\n先验证再承诺，先价值再交易\n版本：V2.0 | 创建日期：2026-07-30\n艾博连 · 智能座舱 AI Agent 平台  |  东风汽车集团 · 出口座舱方案\n18/18",
+      "slots": [
+        {
+          "slot_id": "s18_sh2",
+          "role": "title_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 6
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s18_sh3",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 0,
+            "y": 714,
+            "width": 1280,
+            "height": 6
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s18_sh4",
+          "role": "label_candidate",
+          "text": "Ready to Execute",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 189,
+            "width": 1050,
+            "height": 73
+          },
+          "text_metrics": {
+            "font_size_px": 58.67,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s18_sh5",
+          "role": "label_candidate",
+          "text": "东风 × 艾博连 · 90天机会验证与POC推进",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 262,
+            "width": 1050,
+            "height": 52
+          },
+          "text_metrics": {
+            "font_size_px": 32.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s18_sh6",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 472,
+            "y": 325,
+            "width": 315,
+            "height": 4
+          },
+          "text_metrics": {
+            "font_size_px": null,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s18_sh7",
+          "role": "label_candidate",
+          "text": "先验证再承诺，先价值再交易",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 346,
+            "width": 1050,
+            "height": 42
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s18_sh8",
+          "role": "label_candidate",
+          "text": "版本：V2.0 | 创建日期：2026-07-30",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 504,
+            "width": 1050,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s18_sh9",
+          "role": "label_candidate",
+          "text": "艾博连 · 智能座舱 AI Agent 平台  |  东风汽车集团 · 出口座舱方案",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 96,
+            "y": 525,
+            "width": 1050,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s18_sh10",
+          "role": "label_candidate",
+          "text": "18/18",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1171,
+            "y": 682,
+            "width": 96,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 13.33,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    }
+  ],
+  "plan_contract": {
+    "schema": "template_fill_pptx_plan.v1",
+    "slides": [
+      {
+        "source_slide": 1,
+        "purpose": "封面 / 章节 / 内容 / 结尾",
+        "replacements": [
+          {
+            "slot_id": "s01_sh2",
+            "text": "替换后的文字"
+          }
+        ],
+        "table_edits": [
+          {
+            "table_id": "s01_tbl3",
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "替换后的单元格"
+              }
+            ]
+          }
+        ],
+        "chart_edits": [
+          {
+            "chart_id": "s01_ch4",
+            "categories": [
+              "A",
+              "B"
+            ],
+            "series": [
+              {
+                "name": "系列1",
+                "values": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

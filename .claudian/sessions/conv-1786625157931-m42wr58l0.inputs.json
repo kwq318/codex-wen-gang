@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1786625157931-m42wr58l0",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786625157950-fxsvif3",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1786625157912-p498yy5",
+      "timestamp": 1786625157912,
+      "rawDisplayText": "艾博连",
+      "canonicalText": "艾博连",
+      "images": [],
+      "contentDigest": "f1844b883a01d929380ba1a63c8d4cf5bbe3ff2762ddc1a7c5c38c9fba8c0c85",
+      "providerUserMessageId": "019ffb28-7405-7f92-b8b8-8ab3ce516340",
+      "providerAssistantMessageId": "resp_b6d59e73-163d-4692-b288-d61ff09c3582_msg"
+    }
+  ]
+}

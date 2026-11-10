@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "ppt_to_md.py",
+  "conversion_type": "pptx",
+  "source": {
+    "path": "东风集团-90天客户机会验证与POC推进计划.pptx",
+    "name": "东风集团-90天客户机会验证与POC推进计划.pptx",
+    "suffix": ".pptx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 67613
+  },
+  "outputs": {
+    "markdown": "东风集团-90天客户机会验证与POC推进计划.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 482,
+    "char_count": 6105,
+    "heading_count": 19,
+    "table_count": 2,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

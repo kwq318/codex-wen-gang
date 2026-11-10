@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>月度销售数据 - 动画柱状图</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    overflow: hidden;
+  }
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: titleFadeIn 0.8s ease forwards;
+  }
+  @keyframes titleFadeIn {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  svg {
+    width: 90vw;
+    max-width: 1000px;
+    height: 500px;
+  }
+  /* 水平基线 */
+  .baseline {
+    stroke: #555;
+    stroke-width: 2;
+  }
+  /* 所有柱子共用的动画 */
+  .bar-rect {
+    animation: barGrow 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    transform-origin: bottom;
+    transform: scaleY(0);
+  }
+  @keyframes barGrow {
+    0% { transform: scaleY(0); }
+    70% { transform: scaleY(1.05); }
+    100% { transform: scaleY(1); }
+  }
+  .bar-value {
+    opacity: 0;
+    animation: valueFadeIn 0.5s ease forwards;
+  }
+  @keyframes valueFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .bar-label {
+    opacity: 0;
+    animation: labelFadeIn 0.5s ease forwards;
+  }
+  @keyframes labelFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  /* 重播按钮 */
+  .replay-btn {
+    margin-top: 30px;
+    padding: 12px 36px;
+    font-size: 18px;
+    color: #ffffff;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .replay-btn:hover {
+    background: rgba(255,255,255,0.25);
+  }
+</style>
+</head>
+<body>
+<div class="chart-container">
+  <h1 id="title">月度销售数据</h1>
+  <svg id="chart" viewBox="0 0 1000 500">
+    <!-- 水平基线 -->
+    <line class="baseline" x1="50" y1="440" x2="950" y2="440" />
+  </svg>
+  <button class="replay-btn" onclick="replay()">重播动画</button>
+</div>
+
+<script>
+  // 数据定义
+  const DATA = [
+    { label: "一月", value: 85, color: "#FF6B6B" },
+    { label: "二月", value: 65, color: "#4ECDC4" },
+    { label: "三月", value: 92, color: "#45B7D1" },
+    { label: "四月", value: 78, color: "#96CEB4" },
+    { label: "五月", value: 70, color: "#FFEAA7" },
+  ];
+
+  const maxValue = 100; // 固定的最大值（百分比）
+  const chartHeight = 340; // 柱子的最大高度
+  const chartBottom = 440; // 柱子底部 Y 坐标
+  const barWidth = 100;
+  const gap = 40;
+  const totalWidth = DATA.length * (barWidth + gap) - gap;
+  const startX = (1000 - totalWidth) / 2;
+
+  const svg = document.getElementById("chart");
+  const SVGNS = "http://www.w3.org/2000/svg";
+
+  // 创建柱状图
+  function createChart() {
+    // 清除旧柱子（保留基线）
+    const bars = svg.querySelectorAll(".bar-group, .value-text, .label-text");
+    bars.forEach(b => b.remove());
+
+    DATA.forEach((item, i) => {
+      const barHeight = (item.value / maxValue) * chartHeight;
+      const x = startX + i * (barWidth + gap);
+      const y = chartBottom - barHeight;
+
+      // 组容器
+      const group = document.createElementNS(SVGNS, "g");
+      group.classList.add("bar-group");
+
+      // 柱子
+      const rect = document.createElementNS(SVGNS, "rect");
+      rect.setAttribute("x", x);
+      rect.setAttribute("y", y);
+      rect.setAttribute("width", barWidth);
+      rect.setAttribute("height", barHeight);
+      rect.setAttribute("fill", item.color);
+      rect.setAttribute("rx", "8");
+      rect.setAttribute("ry", "8");
+      rect.classList.add("bar-rect");
+      rect.style.animationDelay = `${i * 0.2}s`;
+
+      // 数值标签
+      const valueText = document.createElementNS(SVGNS, "text");
+      valueText.setAttribute("x", x + barWidth / 2);
+      valueText.setAttribute("y", y - 16);
+      valueText.setAttribute("text-anchor", "middle");
+      valueText.setAttribute("font-size", "28");
+      valueText.setAttribute("font-weight", "bold");
+      valueText.setAttribute("fill", item.color);
+      valueText.classList.add("bar-value");
+      valueText.style.animationDelay = `${i * 0.2 + 0.6}s`;
+      valueText.textContent = `${item.value}%`;
+
+      // 底部标签
+      const labelText = document.createElementNS(SVGNS, "text");
+      labelText.setAttribute("x", x + barWidth / 2);
+      labelText.setAttribute("y", chartBottom + 35);
+      labelText.setAttribute("text-anchor", "middle");
+      labelText.setAttribute("font-size", "24");
+      labelText.setAttribute("font-weight", "bold");
+      labelText.setAttribute("fill", "#ffffff");
+      labelText.classList.add("bar-label");
+      labelText.style.animationDelay = `${i * 0.2 + 0.8}s`;
+      labelText.textContent = item.label;
+
+      group.appendChild(rect);
+      svg.appendChild(group);
+      svg.appendChild(valueText);
+      svg.appendChild(labelText);
+    });
+  }
+
+  // 重播动画
+  function replay() {
+    // 移除所有柱子元素
+    const bars = svg.querySelectorAll(".bar-group, .value-text, .label-text");
+    bars.forEach(b => b.remove());
+
+    // 重置标题动画
+    const title = document.getElementById("title");
+    title.style.animation = "none";
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        title.style.animation = "titleFadeIn 0.8s ease forwards";
+      });
+    });
+
+    // 重新创建柱子（触发动画）
+    createChart();
+  }
+
+  // 初始创建
+  createChart();
+</script>
+</body>
+</html>

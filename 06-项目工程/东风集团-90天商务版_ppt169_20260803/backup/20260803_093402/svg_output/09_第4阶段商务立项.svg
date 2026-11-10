@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">第9-12周推动至少一项可量化的商务结果</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">第4阶段 · 商务立项</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase4-task1" data-pptx-bounds="64 196 360 356">
+    <rect x="64" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="64" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="96" y="244" font-size="24" font-weight="bold" fill="#17211F">任务1 供应商准入</text>
+    <text x="96" y="292" font-size="17" fill="#3E403D">确认东风供应商准入流程和</text>
+    <text x="96" y="318" font-size="17" fill="#3E403D">资质要求。</text>
+    <text x="96" y="352" font-size="17" fill="#3E403D">准备准入资料：公司资质、</text>
+    <text x="96" y="378" font-size="17" fill="#3E403D">案例、方案报价。</text>
+    <text x="96" y="412" font-size="17" fill="#3E403D">寻找内部推动人加速审批。</text>
+    <line x1="96" y1="470" x2="400" y2="470" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="96" y="504" font-size="16" font-weight="bold" fill="#2E6F68">产出：《采购流程图和机会卡》</text>
+  </g>
+  <g id="phase4-task2" data-pptx-bounds="448 196 360 356">
+    <rect x="448" y="196" width="360" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="448" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="480" y="244" font-size="24" font-weight="bold" fill="#17211F">任务2 商务提案</text>
+    <text x="480" y="292" font-size="17" fill="#3E403D">基于POC结果形成正式提案。</text>
+    <text x="480" y="322" font-size="17" fill="#3E403D">明确报价模型：按项目、</text>
+    <text x="480" y="348" font-size="17" fill="#3E403D">按车型、按功能模块。</text>
+    <text x="480" y="382" font-size="17" fill="#3E403D">准备TCO对比：自研 + 其他</text>
+    <text x="480" y="408" font-size="17" fill="#3E403D">供应商。</text>
+    <text x="480" y="442" font-size="17" fill="#3E403D">突出“不上这个方案的代价”。</text>
+    <line x1="480" y1="470" x2="784" y2="470" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="phase4-task3" data-pptx-bounds="832 196 384 356">
+    <rect x="832" y="196" width="384" height="356" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <rect x="832" y="196" width="8" height="356" fill="#C34A3D"/>
+    <text x="864" y="244" font-size="24" font-weight="bold" fill="#17211F">任务3 下一阶段锁定</text>
+    <text x="864" y="292" font-size="17" fill="#3E403D">争取付费POC。</text>
+    <text x="864" y="322" font-size="17" fill="#3E403D">争取联合预研或技术合作协议。</text>
+    <text x="864" y="352" font-size="17" fill="#3E403D">争取进入正式供应商评估流程。</text>
+    <text x="864" y="390" font-size="17" fill="#3E403D">若未达成，记录原因、阻塞项</text>
+    <text x="864" y="416" font-size="17" fill="#3E403D">和下次触达日期。</text>
+    <line x1="864" y1="470" x2="1192" y2="470" stroke="#D8D4CB" stroke-width="2"/>
+    <text x="864" y="504" font-size="16" font-weight="bold" fill="#2E6F68">三类结果至少锁定一项</text>
+  </g>
+  <g id="phase4-exit" data-pptx-bounds="64 580 1152 68">
+    <rect x="64" y="580" width="1152" height="68" fill="#17211F"/>
+    <text x="96" y="620" font-size="24" font-weight="bold" fill="#FFFFFF">第90天底线：不以“持续跟进”作结案结论</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">09 / 12</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">主要风险提前识别，核心对策是“先验证再承诺”</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">风险矩阵</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="risk-header" data-pptx-bounds="64 196 1152 48">
+    <rect x="64" y="196" width="1152" height="48" fill="#17211F"/>
+    <text x="96" y="226" font-size="18" font-weight="bold" fill="#FFFFFF">风险项</text>
+    <text x="500" y="226" font-size="18" font-weight="bold" fill="#FFFFFF">概率 / 影响</text>
+    <text x="760" y="226" font-size="18" font-weight="bold" fill="#FFFFFF">应对策略</text>
+  </g>
+  <g id="risk-1" data-pptx-bounds="64 252 1152 78">
+    <rect x="64" y="252" width="1152" height="78" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="96" y="294" font-size="18" font-weight="bold" fill="#17211F">华为合作无实际商务作用</text>
+    <text x="500" y="294" font-size="18" fill="#C34A3D">中 / 高</text>
+    <text x="760" y="294" font-size="17" fill="#3E403D">第1周确认边界，不依赖引荐，按独立渠道推进东风</text>
+  </g>
+  <g id="risk-2" data-pptx-bounds="64 338 1152 78">
+    <rect x="64" y="338" width="1152" height="78" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="96" y="380" font-size="18" font-weight="bold" fill="#17211F">联合方案集成度不够</text>
+    <text x="500" y="380" font-size="18" fill="#3E403D">中 / 高</text>
+    <text x="760" y="380" font-size="17" fill="#3E403D">第1周验证，如不够则话术降级为集成进行中</text>
+  </g>
+  <g id="risk-3" data-pptx-bounds="64 424 1152 78">
+    <rect x="64" y="424" width="1152" height="78" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="96" y="466" font-size="18" font-weight="bold" fill="#17211F">产品成熟度不足以支撑POC</text>
+    <text x="500" y="466" font-size="18" fill="#3E403D">中 / 中</text>
+    <text x="760" y="466" font-size="17" fill="#3E403D">诚实告知联合预研中，缩小POC范围</text>
+  </g>
+  <g id="risk-4" data-pptx-bounds="64 510 1152 78">
+    <rect x="64" y="510" width="1152" height="78" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="96" y="552" font-size="18" font-weight="bold" fill="#17211F">合规能力证据不足</text>
+    <text x="500" y="552" font-size="18" fill="#C34A3D">高 / 高</text>
+    <text x="760" y="552" font-size="17" fill="#3E403D">第1-4周优先收集证据，必要时引入第三方合规咨询</text>
+  </g>
+  <g id="risk-5" data-pptx-bounds="64 596 1152 72">
+    <rect x="64" y="596" width="1152" height="72" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="96" y="636" font-size="18" font-weight="bold" fill="#17211F">东风出口节奏或预算调整</text>
+    <text x="500" y="636" font-size="18" fill="#3E403D">中 / 高</text>
+    <text x="760" y="636" font-size="17" fill="#3E403D">跟踪东风出口战略和预算周期，备线随时激活</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 684 1152 28">
+    <text x="64" y="706" font-size="16" fill="#3E403D">最大风险不是动作不够，而是证据、集成深度和商务路径未验证</text>
+    <text x="1216" y="706" font-size="16" fill="#3E403D" text-anchor="end">11 / 12</text>
+  </g>
+</svg>

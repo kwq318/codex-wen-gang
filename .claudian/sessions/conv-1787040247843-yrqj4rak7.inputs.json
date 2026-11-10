@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787040247843-yrqj4rak7",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787040247889-axxogsp",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787040247826-a5nx4lr",
+      "timestamp": 1787040247826,
+      "rawDisplayText": "你结合我现在公司的产品，化身为该行业的销售专家帮我重新规划使命",
+      "canonicalText": "你结合我现在公司的产品，化身为该行业的销售专家帮我重新规划使命",
+      "context": {
+        "currentNote": {
+          "path": "Codex记忆库/01-长期规划/个人使命与愿景.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "b665a8304f4e3e14b1e8ceaf0792dd89ce25136450f10a525bb8f84ae184074f",
+      "providerUserMessageId": "01a013e6-3686-7020-aec2-20a8deabef21",
+      "providerAssistantMessageId": "msg_0a46705841ccd9a7016a841283f7a487d2888ac8b6f8243f31"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787546292614-g8d90rz",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787546292586-01he1b7",
+      "timestamp": 1787546292586,
+      "rawDisplayText": "奇瑞海外",
+      "canonicalText": "奇瑞海外",
+      "images": [],
+      "contentDigest": "453e1d5e6ca9a31b520a22c813c295baf421d9ad5957324d8849849d7be61c01",
+      "providerUserMessageId": "01a0320f-d61f-7ec3-b2d4-f433ce117dbb",
+      "providerAssistantMessageId": "msg_0a46705841ccd9a7016a8bcb2af54487d298ce02be47820310"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787550612085-cq8zyw3",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787550612061-byotdqo",
+      "timestamp": 1787550612061,
+      "rawDisplayText": "飞书共享的材料在哪里",
+      "canonicalText": "飞书共享的材料在哪里",
+      "images": [],
+      "contentDigest": "f9e419941fed0d35ca703de25cf8a0ed814d99e1ae6e688b2794fad6caed89c2",
+      "providerUserMessageId": "01a03251-be9b-7fb3-a7dc-0d8eac13a88f",
+      "providerAssistantMessageId": "msg_0a46705841ccd9a7016a8bdbbb6af087d28c084d901287da7f"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789635975635-2c88e12",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1789635975613-bolghm5",
+      "timestamp": 1789635975613,
+      "rawDisplayText": "帮我整套笔记整理一下",
+      "canonicalText": "帮我整套笔记整理一下",
+      "images": [],
+      "contentDigest": "5413f542d611ebf8db0cc646acf4922688c3dfc967d942652781951916e4bcf7",
+      "providerUserMessageId": "01a0ae9d-deb3-7932-893b-89f4610c65c8"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789637294947-i8aw3a8",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1789637294941-m3mk2f4",
+      "timestamp": 1789637294941,
+      "rawDisplayText": "帮我整套笔记整理一下",
+      "canonicalText": "帮我整套笔记整理一下",
+      "images": [],
+      "contentDigest": "5413f542d611ebf8db0cc646acf4922688c3dfc967d942652781951916e4bcf7",
+      "providerUserMessageId": "01a0aeb1-fb6f-71a0-98ad-271c152dbcd8",
+      "providerAssistantMessageId": "resp_chat_0000000000002edc_msg"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789637521551-rgw9yww",
+      "userTurnOrdinal": 6,
+      "state": "accepted",
+      "localMessageId": "msg-1789637521546-mno0qs7",
+      "timestamp": 1789637521546,
+      "rawDisplayText": "按这个方案执行",
+      "canonicalText": "按这个方案执行",
+      "images": [],
+      "contentDigest": "e9f65b8b869cc606d5774843ba37e48884c97a2b39ce5889afe2bbf3d5aa6c96",
+      "providerUserMessageId": "01a0aeb5-709b-7d13-b686-5f0ad8805f56",
+      "providerAssistantMessageId": "resp_chat_0000000000000cfd_msg"
+    }
+  ]
+}

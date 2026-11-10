@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="content"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="page-header" data-pptx-bounds="64 44 1152 124">
+    <text x="64" y="84" font-size="40" font-weight="bold" fill="#17211F">用90天验证东风出口座舱机会，</text>
+    <text x="64" y="130" font-size="40" font-weight="bold" fill="#17211F">目标锁定一个可商务化的POC结果</text>
+    <text x="1216" y="86" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">管理摘要</text>
+    <line x1="64" y1="156" x2="1216" y2="156" stroke="#D8D4CB" stroke-width="2"/>
+  </g>
+  <g id="summary-lead" data-pptx-bounds="64 188 1152 92">
+    <text x="64" y="226" font-size="28" fill="#17211F">90天不是销售动作清单，而是有里程碑、有退出机制、</text>
+    <text x="64" y="262" font-size="28" fill="#17211F">有明确产出的机会验证过程。</text>
+  </g>
+  <g id="summary-col-main" data-pptx-bounds="64 312 360 236">
+    <rect x="64" y="312" width="360" height="236" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="88" y="352" font-size="24" font-weight="bold" fill="#17211F">主线</text>
+    <text x="88" y="390" font-size="18" fill="#3E403D">东风出口座舱智能化机会，</text>
+    <text x="88" y="420" font-size="18" fill="#3E403D">目标形成付费POC、联合预研</text>
+    <text x="88" y="450" font-size="18" fill="#3E403D">或正式供应商评估任一结果。</text>
+    <line x1="88" y1="482" x2="400" y2="482" stroke="#C34A3D" stroke-width="4"/>
+    <text x="88" y="514" font-size="18" fill="#2E6F68">商业价值最高，优先级最高</text>
+  </g>
+  <g id="summary-col-backup" data-pptx-bounds="448 312 360 236">
+    <rect x="448" y="312" width="360" height="236" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="472" y="352" font-size="24" font-weight="bold" fill="#17211F">备线</text>
+    <text x="472" y="390" font-size="18" fill="#3E403D">国内车型AI Link体验增强，</text>
+    <text x="472" y="420" font-size="18" fill="#3E403D">主线受阻时自动激活。</text>
+    <line x1="472" y1="482" x2="784" y2="482" stroke="#2E6F68" stroke-width="4"/>
+    <text x="472" y="514" font-size="18" fill="#3E403D">快速迭代，不依赖海外合规流程</text>
+  </g>
+  <g id="summary-col-huawei" data-pptx-bounds="832 312 384 236">
+    <rect x="832" y="312" width="384" height="236" fill="#FFFFFF" stroke="#D8D4CB"/>
+    <text x="856" y="352" font-size="24" font-weight="bold" fill="#17211F">华为定位</text>
+    <text x="856" y="390" font-size="18" fill="#3E403D">仅作为合作伙伴，第1周确认边界；</text>
+    <text x="856" y="420" font-size="18" fill="#3E403D">不假设其引荐或商务杠杆可用，</text>
+    <text x="856" y="450" font-size="18" fill="#3E403D">按独立渠道推进东风。</text>
+    <line x1="856" y1="482" x2="1192" y2="482" stroke="#17211F" stroke-width="4"/>
+    <text x="856" y="514" font-size="18" fill="#3E403D">证据未确认前不作为承诺</text>
+  </g>
+  <g id="summary-decision" data-pptx-bounds="64 572 1152 76">
+    <rect x="64" y="572" width="1152" height="76" fill="#17211F"/>
+    <text x="96" y="616" font-size="24" font-weight="bold" fill="#FFFFFF">本次汇报决策点：确认目标项目优先级、产品与合规支持资源、每周复盘机制</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 664 1152 32">
+    <text x="64" y="690" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="690" font-size="16" fill="#3E403D" text-anchor="end">02 / 12</text>
+  </g>
+</svg>

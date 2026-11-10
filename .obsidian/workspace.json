@@ -1,0 +1,325 @@
+{
+  "main": {
+    "id": "fd03df8b024d8a4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdb7a41ce89d3bde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3937da0967da06dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/智能座舱出海之谷歌 GAS 产品方案剖析-助力产品经理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "智能座舱出海之谷歌 GAS 产品方案剖析-助力产品经理"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3ea69be16a638fc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcbedd6699416b4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "902490e069b4c40a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ee543a4dbb485aae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2ab2c1449a8bc73a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.2421875
+  },
+  "right": {
+    "id": "0c12b680fc1d18f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "906f130ee67ac101",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7b58ab0261b27e8",
+            "type": "leaf",
+            "state": {
+              "type": "llm-helper-chat",
+              "state": {},
+              "icon": "messages-square",
+              "title": "LLM Chat"
+            }
+          },
+          {
+            "id": "73dce045a9fa006f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "笔记属性"
+            }
+          },
+          {
+            "id": "80853651c5676e26",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "3dda5040d5926fc2",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "690395d0bed95e23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "08-学习与笔记/提示词工程/顶级AI提示词架构师_协作规则.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "68c433b129b82df8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/智能座舱出海之谷歌 GAS 产品方案剖析-助力产品经理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "f3672e2e36d8961d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e0e25807983abbeb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "5ce2832f49e2bc2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "b7dd0d231d8f87ba",
+            "type": "leaf",
+            "state": {
+              "type": "semantic-related-notes",
+              "state": {},
+              "icon": "brain-circuit",
+              "title": "Related Notes"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "realclaudian:Open Claudian": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "nutstore-sync:Start sync": false,
+      "nutstore-sync:Stop sync": false,
+      "nutstore-sync:Open chatbox": false,
+      "omnisearch:Omnisearch": false,
+      "excalidraw-cn:Create New Excalidraw File": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "agent-client:Open agent client": false,
+      "obsidian42-brat:BRAT": false,
+      "local-llm-helper:LLM Helper": false,
+      "wechat-inbox-sync:同步微信收集箱": false,
+      "semantic-backlinks:Semantic Backlinks": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false,
+      "templater-obsidian:Templater": false,
+      "remotely-save:Remotely Save": false,
+      "publish:发布更改": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "3937da0967da06dc",
+  "lastOpenFiles": [
+    "Clippings/谷歌 GAS 上车：是中国汽车出海绕不开的 \"车机船票\"吗？ 1.md",
+    "Clippings/智能座舱出海之谷歌 GAS 产品方案剖析-助力产品经理.md",
+    "Clippings/大模型进座舱：我把云端方案砍掉一半，才明白端侧的价值.md",
+    "Clippings/读书笔记《麦肯锡问题分析与解决技巧》.md",
+    "Clippings/Moshi 技术报告：全双工语音对话的端到端架构拆解.md",
+    "Clippings/谷歌 GAS 上车：是中国汽车出海绕不开的 \"车机船票\"吗？.md",
+    "Clippings/原生导航竞争转向深度集成.md",
+    "Clippings/座舱进入Agent时代，竞争转向开放生态与量产落地.md",
+    "Clippings/车载语音转向可信任务执行.md",
+    "Clippings/座舱电子电气架构与域控制器.md",
+    "_kepano-skill-test-20261026.base",
+    "_kepano-skill-test-20261026.canvas",
+    "_kepano-skill-test-20261026.md",
+    "Clippings/端侧 ASR：从落地场景到部署选型.md",
+    "~$MG_Voice3.0_测试服务详细报价.xlsx",
+    "MG_Voice3.0_测试服务详细报价.xlsx",
+    "06-项目工程/harness2/harness2.egg-info/top_level.txt",
+    "06-项目工程/harness2/harness2.egg-info/requires.txt",
+    "06-项目工程/harness2/harness2.egg-info/entry_points.txt",
+    "06-项目工程/harness2/harness2.egg-info/dependency_links.txt",
+    "06-项目工程/harness2/harness2.egg-info/SOURCES.txt",
+    "06-项目工程/harness2/harness2.egg-info/PKG-INFO",
+    "06-项目工程/harness2/harness2.egg-info",
+    "06-项目工程/harness2/third_party/wb_runner/configs/harnesses/opencode/CONFIG.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/tool_descriptions/tool_guidance.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/sub_agents/README.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/plugin/README.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/scripts/README.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/guardrails.md",
+    "06-项目工程/harness2/third_party/jb_runner/codex_base_harness/AGENTS.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/systemprompt.md",
+    "06-项目工程/harness2/third_party/jb_runner/harness_baseline_oc/LongTermMEMORY.md",
+    "06-项目工程/harness2/third_party/lab_runner/opencode/README.md",
+    "06-项目工程/harness2/third_party/jb_runner/PROVENANCE.md",
+    "06-项目工程/harness2/third_party/wb_runner/PROVENANCE.md",
+    "06-项目工程/harness2/third_party/lab_runner/PROVENANCE.md",
+    "06-项目工程/harness2/third_party/README.md",
+    "06-项目工程/harness2/assets/logo.png",
+    "06-项目工程/harness2/assets/harness2_recursion_modes.png",
+    "06-项目工程/harness2/assets/harness2_pipeline.png",
+    "06-项目工程/harness2/assets/components.png",
+    "06-项目工程/harness2/assets/harness2-setup.gif",
+    "06-项目工程/harness2/assets/Harness2-wordmark.png",
+    "09-Excalidraw绘图/汽车电子座舱生态图/汽车电子座舱生态图.png",
+    "04-产品与技术资料/座舱海外生态AI_Agent_技术方案版_优化版.png",
+    "座舱海外生态AI_Agent_技术方案版_优化版.png",
+    "08-学习与笔记/艾博连业务学习/图片/座舱海外生态AI_Agent_技术方案版_优化版.png",
+    "未命名.canvas",
+    "未命名 1.canvas"
+  ]
+}

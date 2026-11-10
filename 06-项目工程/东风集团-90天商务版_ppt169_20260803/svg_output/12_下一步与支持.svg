@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="ending"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <g id="closing-title" data-pptx-bounds="64 56 1152 132">
+    <text x="64" y="104" font-size="42" font-weight="bold" fill="#17211F">请确认三条边界，我按周启动执行</text>
+    <line x1="64" y1="140" x2="720" y2="140" stroke="#C34A3D" stroke-width="6"/>
+    <text x="1216" y="92" font-size="18" font-weight="bold" fill="#2E6F68" text-anchor="end">下一步</text>
+  </g>
+  <g id="closing-decisions" data-pptx-bounds="64 220 520 300">
+    <text x="64" y="262" font-size="24" font-weight="bold" fill="#17211F">需要总监确认</text>
+    <text x="64" y="316" font-size="20" fill="#17211F">01 确认目标项目优先级，</text>
+    <text x="64" y="348" font-size="20" fill="#3E403D">以出口需求最明确的车型优先。</text>
+    <text x="64" y="396" font-size="20" fill="#17211F">02 确认资源支持，</text>
+    <text x="64" y="428" font-size="20" fill="#3E403D">包括产品Demo、合规咨询和技术对接。</text>
+    <text x="64" y="476" font-size="20" fill="#17211F">03 确认每周复盘机制，</text>
+    <text x="64" y="508" font-size="20" fill="#3E403D">以及第7、30、60、90天检查点。</text>
+  </g>
+  <g id="closing-actions" data-pptx-bounds="640 220 576 300">
+    <text x="640" y="262" font-size="24" font-weight="bold" fill="#17211F">第一周启动动作</text>
+    <text x="640" y="316" font-size="20" fill="#3E403D">完成华为合作边界确认。</text>
+    <text x="640" y="348" font-size="20" fill="#3E403D">完成产品成熟度评审。</text>
+    <text x="640" y="380" font-size="20" fill="#3E403D">完成目标项目初选。</text>
+    <text x="640" y="412" font-size="20" fill="#3E403D">梳理东风出口车型矩阵。</text>
+    <text x="640" y="444" font-size="20" fill="#3E403D">准备首次客户沟通议程和访谈问题。</text>
+  </g>
+  <g id="closing-statement" data-pptx-bounds="64 566 1152 92">
+    <rect x="64" y="566" width="1152" height="92" fill="#17211F"/>
+    <text x="96" y="616" font-size="28" font-weight="bold" fill="#FFFFFF">先验证再承诺，先价值再交易</text>
+    <text x="96" y="650" font-size="18" fill="#E9E6DE">东风 × 艾博连 · 90天客户机会验证与POC推进</text>
+  </g>
+  <g id="page-footer" data-pptx-bounds="64 674 1152 42">
+    <text x="64" y="704" font-size="16" fill="#3E403D">内部工作计划 · 销售总监汇报版</text>
+    <text x="1216" y="704" font-size="16" fill="#3E403D" text-anchor="end">12 / 12</text>
+  </g>
+</svg>

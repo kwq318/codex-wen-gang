@@ -1,0 +1,153 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "gemini-3.8-flash",
+  "thinkingBudget": "off",
+  "effortLevel": "ultra",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "en",
+  "providerConfigs": {
+    "claude": {
+      "enabled": false,
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "customModels": "",
+      "defaultModel": "opus",
+      "lastModel": "haiku",
+      "modelEnvironmentType": "",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "",
+      "environmentHash": ""
+    },
+    "codex": {
+      "enabled": true,
+      "safeMode": "workspace-write",
+      "cliPath": "/Applications/ChatGPT.app/Contents/Resources/codex",
+      "cliPathsByHost": {},
+      "customModels": "deepseek-v4-flash",
+      "discoveredModels": [
+        {
+          "model": "gemini-3.8-flash",
+          "displayName": "gemini-3.8-flash",
+          "description": "gemini-3.8-flash",
+          "supportedReasoningEfforts": [
+            {
+              "value": "ultra",
+              "description": "Ultra reasoning depth"
+            }
+          ],
+          "defaultReasoningEffort": "ultra",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": true
+        }
+      ],
+      "modelAliases": {},
+      "visibleModels": null,
+      "enableUltraEffort": true,
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "runtime-input:v1:6dc02a3c70ddd5e8f0555cf9b3e5dd13e8b74d3954f61a562bc61838e6474d0b",
+      "catalogTimestamp": 1790757501528,
+      "catalogFingerprint": "2:ab762a88fe92d6c077f6d8cb12dd4c7b8b110ef216700e82515890813ad99181",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {}
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "planBasePermissionMode": "normal",
+      "preferredReasoningByModel": {},
+      "visibleModels": null
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "OPENCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
+    }
+  },
+  "settingsProvider": "codex",
+  "lastSelectedChatModel": {
+    "providerId": "codex",
+    "model": "openai-codex/deepseek-v4-flash"
+  },
+  "savedProviderModel": {
+    "claude": "sonnet",
+    "codex": "gemini-3.8-flash"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "codex": "ultra"
+  },
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
+  "savedProviderThinkingBudget": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "codex": "yolo"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "lastCustomModel": "",
+  "maxWarmAgentProcesses": 5,
+  "enableAutoScroll": true,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableDualPane": true,
+  "enableFilePane": true,
+  "dualPaneSide": "right",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedNotePaths": [],
+  "hiddenProviderCommands": {}
+}

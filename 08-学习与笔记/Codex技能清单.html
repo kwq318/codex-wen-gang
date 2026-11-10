@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Codex 技能清单</title>
+<style>
+  :root {
+    --bg: #fbf7d9;
+    --text: #3d3d2e;
+    --accent: #c4943a;
+    --border: #e0d5a0;
+    --tag-bg: #e8ddb5;
+    --tag-text: #5a4e2e;
+    --shadow: 0 2px 12px rgba(0,0,0,0.12);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: transparent;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 28px;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .sticky {
+    width: 780px;
+    max-width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: 24px 28px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .sticky::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 8px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.04) 0%, transparent 100%);
+  }
+  .title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--border);
+  }
+  .title-bar h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.02em;
+  }
+  .title-bar .count {
+    font-size: 12px;
+    color: #8c8c70;
+  }
+  .stats-row {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    font-size: 11px;
+    color: #6b6b55;
+    background: var(--tag-bg);
+    padding: 3px 10px;
+    border-radius: 3px;
+  }
+  .section {
+    margin-bottom: 14px;
+  }
+  .section-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+    padding-left: 2px;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 6px;
+  }
+  .tag {
+    font-size: 11px;
+    font-family: "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
+    background: #fff;
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 2px 8px;
+    white-space: nowrap;
+    transition: background 0.15s;
+    cursor: default;
+  }
+  .tag:hover {
+    background: #f5efd0;
+    border-color: var(--accent);
+  }
+  .footer {
+    margin-top: 16px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    font-size: 10px;
+    color: #aaa;
+    text-align: right;
+  }
+</style>
+</head>
+<body>
+<div class="sticky">
+  <div class="title-bar">
+    <h1>⎈  Codex 技能清单</h1>
+    <span class="count">61 个已安装</span>
+  </div>
+  <div class="stats-row">
+    <span class="stat">📈 交易 & 策略 35</span>
+    <span class="stat">📊 市场分析 8</span>
+    <span class="stat">🏢 股票 & 组合 3</span>
+    <span class="stat">💰 股息 3</span>
+    <span class="stat">⚙ 工具 & 系统 12</span>
+  </div>
+
+  <div class="section">
+    <div class="section-title">📈 交易 & 策略</div>
+    <div class="tag-list">
+      <span class="tag">backtest-expert</span>
+      <span class="tag">breakout-trade-planner</span>
+      <span class="tag">canslim-screener</span>
+      <span class="tag">dividend-growth-pullback-screener</span>
+      <span class="tag">downtrend-duration-analyzer</span>
+      <span class="tag">earnings-calendar</span>
+      <span class="tag">earnings-trade-analyzer</span>
+      <span class="tag">edge-candidate-agent</span>
+      <span class="tag">edge-concept-synthesizer</span>
+      <span class="tag">edge-hint-extractor</span>
+      <span class="tag">edge-pipeline-orchestrator</span>
+      <span class="tag">edge-signal-aggregator</span>
+      <span class="tag">edge-strategy-designer</span>
+      <span class="tag">edge-strategy-reviewer</span>
+      <span class="tag">exposure-coach</span>
+      <span class="tag">finviz-screener</span>
+      <span class="tag">ftd-detector</span>
+      <span class="tag">ibd-distribution-day-monitor</span>
+      <span class="tag">institutional-flow-tracker</span>
+      <span class="tag">market-top-detector</span>
+      <span class="tag">options-strategy-advisor</span>
+      <span class="tag">pair-trade-screener</span>
+      <span class="tag">parabolic-short-trade-planner</span>
+      <span class="tag">pead-screener</span>
+      <span class="tag">position-sizer</span>
+      <span class="tag">scenario-analyzer</span>
+      <span class="tag">signal-postmortem</span>
+      <span class="tag">stanley-druckenmiller-investment</span>
+      <span class="tag">strategy-pivot-designer</span>
+      <span class="tag">trade-hypothesis-ideator</span>
+      <span class="tag">trade-performance-coach</span>
+      <span class="tag">trader-memory-core</span>
+      <span class="tag">trading-skills-navigator</span>
+      <span class="tag">us-market-bubble-detector</span>
+      <span class="tag">vcp-screener</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">📊 市场分析</div>
+    <div class="tag-list">
+      <span class="tag">breadth-chart-analyst</span>
+      <span class="tag">macro-regime-detector</span>
+      <span class="tag">market-breadth-analyzer</span>
+      <span class="tag">market-environment-analysis</span>
+      <span class="tag">market-news-analyst</span>
+      <span class="tag">sector-analyst</span>
+      <span class="tag">technical-analyst</span>
+      <span class="tag">uptrend-analyzer</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">🏢 股票 & 组合</div>
+    <div class="tag-list">
+      <span class="tag">us-stock-analysis</span>
+      <span class="tag">value-dividend-screener</span>
+      <span class="tag">portfolio-manager</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">💰 股息 / 配当</div>
+    <div class="tag-list">
+      <span class="tag">kanchi-dividend-review-monitor</span>
+      <span class="tag">kanchi-dividend-sop</span>
+      <span class="tag">kanchi-dividend-us-tax-accounting</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">⚙ 工具 & 系统</div>
+    <div class="tag-list">
+      <span class="tag">anysearch</span>
+      <span class="tag">data-quality-checker</span>
+      <span class="tag">dual-axis-skill-reviewer</span>
+      <span class="tag">economic-calendar-fetcher</span>
+      <span class="tag">gh-address-comments</span>
+      <span class="tag">gpt-image</span>
+      <span class="tag">pdf</span>
+      <span class="tag">playwright</span>
+      <span class="tag">skill-designer</span>
+      <span class="tag">skill-idea-miner</span>
+      <span class="tag">skill-integration-tester</span>
+      <span class="tag">theme-detector</span>
+    </div>
+  </div>
+
+  <div class="footer">Codex Skills · 2026-06-22</div>
+</div>
+</body>
+</html>

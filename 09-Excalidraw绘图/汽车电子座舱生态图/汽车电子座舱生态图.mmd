@@ -1,0 +1,97 @@
+flowchart TB
+  subgraph touch["用户触点"]
+    T1["中控大屏"]
+    T2["仪表盘"]
+    T3["HUD 抬头显示"]
+    T4["副驾娱乐屏"]
+    T5["语音助手"]
+    T6["手机 App"]
+  end
+  subgraph hw_in["硬件与感知"]
+    H1["麦克风阵列"]
+    H2["DMS/OMS 摄像头"]
+    H3["蓝牙 / WiFi 模块"]
+    H4["车联网 T-Box"]
+  end
+  subgraph hw_out["硬件与执行"]
+    H5["音频 DSP 与功放"]
+    H6["扬声器阵列"]
+    H7["氛围灯"]
+    H8["网关与电源管理"]
+  end
+  subgraph qcom["主流高通芯片"]
+    Q1["高通 SA8155P"]
+    Q2{{"高通 SA8295P"}}
+    Q3["SA8255P/8259P"]
+    Q4["高通 SA8775P"]
+  end
+  subgraph core["座舱核心"]
+    C1["座舱域控制器"]
+    C2[("座舱计算平台")]
+    C3["车载 OS 与 Hypervisor"]
+    C4{{"多模态感知"}}
+    C5["场景引擎"]
+  end
+  subgraph ai["AI 与体验"]
+    A1[("端侧大模型")]
+    A2{{"Agent 编排中枢"}}
+    A3["主动交互引擎"]
+    A4["影音娱乐"]
+    A5["导航与出行"]
+  end
+  subgraph cloud["云端生态"]
+    E1[("云端大模型")]
+    E2[("内容生态")]
+    E3["手机互联"]
+    E4["车家互联"]
+    E5[("OTA 与数据运营")]
+    E6["车联网 V2X"]
+  end
+
+  T1 -- 显示输出 --> C1
+  T2 -- 显示输出 --> C1
+  T3 -- 显示输出 --> C1
+  T4 -- 显示输出 --> C1
+  T5 -- 语音采集 --> H1
+  T6 -- 设备协同 --> E3
+  H1 -- 语音采集 --> C4
+  H2 -- 视觉采集 --> C4
+  H3 -- 连接管理 --> C1
+  H4 -- 车云数据 --> C1
+  H8 -- 供电与域间通信 --> C1
+  Q1 -- 芯片供应 --> C2
+  Q2 -- 芯片供应 --> C2
+  Q3 -- 芯片供应 --> C2
+  Q4 -- 芯片供应 --> C2
+  C1 -- 算力调度 --> C2
+  C1 -- 系统服务 --> C3
+  C2 -- 硬件抽象 --> C3
+  C4 -- 感知输入 --> C1
+  C1 -- 场景输入 --> C5
+  C1 -- 音源调度 --> H5
+  H5 -- 音频输出 --> H6
+  C1 -- 灯效控制 --> H7
+  C5 -- 场景意图 --> A2
+  A1 -- 推理结果 --> A2
+  E1 -- 云端增强 --> A2
+  A2 -- 交互决策 --> A3
+  A3 -- 内容调用 --> A4
+  A3 -- 出行服务 --> A5
+  E2 -- 内容供给 --> A4
+  E3 -- 手机投屏 --> A3
+  E4 -- 家居联动 --> A3
+  E5 -- OTA 升级 --> C3
+  E6 -- 车路信息 --> C1
+
+  classDef touch fill:#eef2ff,stroke:#4f6ef7,stroke-width:2px,color:#1e293b;
+  classDef hw fill:#ecfeff,stroke:#0891b2,stroke-width:2px,color:#1e293b;
+  classDef chip fill:#fff7ed,stroke:#f97316,stroke-width:2px,color:#1e293b;
+  classDef core fill:#ecfeff,stroke:#0ea5a4,stroke-width:2px,color:#1e293b;
+  classDef ai fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#1e293b;
+  classDef cloud fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#1e293b;
+  class T1,T2,T3,T4,T5,T6 touch;
+  class H1,H2,H3,H4,H5,H6,H7,H8 hw;
+  class Q1,Q2,Q3,Q4 chip;
+  class C1,C2,C3,C4,C5 core;
+  class A1,A2,A3,A4,A5 ai;
+  class E1,E2,E3,E4,E5,E6 cloud;

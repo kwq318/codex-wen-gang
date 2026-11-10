@@ -1,0 +1,143 @@
+import type { DiagramDoc } from "./types";
+
+export const STORAGE_KEY = "next-ai-draw-io:doc:v1";
+export const PROMPT_HISTORY_KEY = "next-ai-draw-io:prompts:v1";
+export const THEME_KEY = "next-ai-draw-io:theme";
+export const AI_SETTINGS_KEY = "next-ai-draw-io:ai-settings";
+
+export function createSeedDoc(): DiagramDoc {
+  return {
+    version: 1,
+    title: "汽车电子座舱生态图",
+    nodes: [
+      // 行标签
+      { id: "note1", type: "diagram", position: { x: 8, y: 46 }, width: 132, height: 56, data: { label: "用户触点", kind: "note", color: "#4f6ef7" } },
+      { id: "note2", type: "diagram", position: { x: 8, y: 236 }, width: 132, height: 56, data: { label: "硬件与感知", kind: "note", color: "#0891b2" } },
+      { id: "note3", type: "diagram", position: { x: 8, y: 406 }, width: 132, height: 56, data: { label: "硬件与执行", kind: "note", color: "#0891b2" } },
+      { id: "note4", type: "diagram", position: { x: 8, y: 576 }, width: 132, height: 56, data: { label: "主流高通芯片", kind: "note", color: "#f97316" } },
+      { id: "note5", type: "diagram", position: { x: 8, y: 746 }, width: 132, height: 56, data: { label: "座舱核心", kind: "note", color: "#0ea5a4" } },
+      { id: "note6", type: "diagram", position: { x: 8, y: 916 }, width: 132, height: 56, data: { label: "AI 与体验", kind: "note", color: "#8b5cf6" } },
+      { id: "note7", type: "diagram", position: { x: 8, y: 1086 }, width: 132, height: 56, data: { label: "云端生态", kind: "note", color: "#10b981" } },
+      // 用户触点
+      { id: "t1", type: "diagram", position: { x: 150, y: 40 }, width: 150, height: 60, data: { label: "中控大屏", kind: "rounded", color: "#4f6ef7" } },
+      { id: "t2", type: "diagram", position: { x: 342, y: 40 }, width: 150, height: 60, data: { label: "仪表盘", kind: "rounded", color: "#4f6ef7" } },
+      { id: "t3", type: "diagram", position: { x: 534, y: 40 }, width: 150, height: 60, data: { label: "HUD 抬头显示", kind: "rounded", color: "#4f6ef7" } },
+      { id: "t4", type: "diagram", position: { x: 726, y: 40 }, width: 150, height: 60, data: { label: "副驾娱乐屏", kind: "rounded", color: "#4f6ef7" } },
+      { id: "t5", type: "diagram", position: { x: 918, y: 40 }, width: 150, height: 60, data: { label: "语音助手", kind: "rounded", color: "#4f6ef7" } },
+      { id: "t6", type: "diagram", position: { x: 1110, y: 40 }, width: 150, height: 60, data: { label: "手机 App", kind: "rounded", color: "#4f6ef7" } },
+      // 硬件与感知
+      { id: "h1", type: "diagram", position: { x: 150, y: 232 }, width: 176, height: 64, data: { label: "麦克风阵列", kind: "rectangle", color: "#0891b2", detail: "语音采集" } },
+      { id: "h2", type: "diagram", position: { x: 360, y: 232 }, width: 176, height: 64, data: { label: "DMS/OMS 摄像头", kind: "rectangle", color: "#0891b2", detail: "驾驶员/乘员监测" } },
+      { id: "h3", type: "diagram", position: { x: 570, y: 232 }, width: 176, height: 64, data: { label: "蓝牙 / WiFi 模块", kind: "rectangle", color: "#0891b2", detail: "近场连接" } },
+      { id: "h4", type: "diagram", position: { x: 780, y: 232 }, width: 176, height: 64, data: { label: "车联网 T-Box", kind: "rectangle", color: "#0891b2", detail: "蜂窝通信" } },
+      // 硬件与执行
+      { id: "h5", type: "diagram", position: { x: 150, y: 402 }, width: 176, height: 64, data: { label: "音频 DSP 与功放", kind: "rectangle", color: "#0891b2", detail: "音效处理" } },
+      { id: "h6", type: "diagram", position: { x: 360, y: 402 }, width: 176, height: 64, data: { label: "扬声器阵列", kind: "rectangle", color: "#0891b2", detail: "沉浸声场" } },
+      { id: "h7", type: "diagram", position: { x: 570, y: 402 }, width: 176, height: 64, data: { label: "氛围灯", kind: "rectangle", color: "#0891b2", detail: "舱内光效" } },
+      { id: "h8", type: "diagram", position: { x: 780, y: 402 }, width: 176, height: 64, data: { label: "网关与电源管理", kind: "rectangle", color: "#0891b2", detail: "域间通信 / 供电" } },
+      // 主流高通芯片
+      { id: "q1", type: "diagram", position: { x: 150, y: 572 }, width: 176, height: 64, data: { label: "高通 SA8155P", kind: "rectangle", color: "#f97316", detail: "量产主力" } },
+      { id: "q2", type: "diagram", position: { x: 360, y: 572 }, width: 176, height: 72, data: { label: "高通 SA8295P", kind: "hexagon", color: "#f97316", detail: "第三代主流" } },
+      { id: "q3", type: "diagram", position: { x: 570, y: 572 }, width: 176, height: 64, data: { label: "SA8255P/8259P", kind: "rectangle", color: "#f97316", detail: "新一代 4nm" } },
+      { id: "q4", type: "diagram", position: { x: 780, y: 572 }, width: 176, height: 64, data: { label: "高通 SA8775P", kind: "rectangle", color: "#f97316", detail: "舱驾一体 Flex" } },
+      // 座舱核心
+      { id: "c1", type: "diagram", position: { x: 150, y: 742 }, width: 176, height: 72, data: { label: "座舱域控制器", kind: "parallelogram", color: "#0ea5a4", detail: "CDC" } },
+      { id: "c2", type: "diagram", position: { x: 366, y: 732 }, width: 180, height: 92, data: { label: "座舱计算平台", kind: "database", color: "#0ea5a4", detail: "高通 / 英伟达 / 地平线" } },
+      { id: "c3", type: "diagram", position: { x: 586, y: 742 }, width: 180, height: 72, data: { label: "车载 OS 与 Hypervisor", kind: "rectangle", color: "#0ea5a4", detail: "QNX / Android Auto" } },
+      { id: "c4", type: "diagram", position: { x: 806, y: 742 }, width: 170, height: 72, data: { label: "多模态感知", kind: "hexagon", color: "#0ea5a4", detail: "语音 / 视觉融合" } },
+      { id: "c5", type: "diagram", position: { x: 1016, y: 742 }, width: 176, height: 72, data: { label: "场景引擎", kind: "rectangle", color: "#0ea5a4" } },
+      // AI 与体验
+      { id: "a1", type: "diagram", position: { x: 150, y: 916 }, width: 170, height: 92, data: { label: "端侧大模型", kind: "database", color: "#8b5cf6", detail: "低延迟推理" } },
+      { id: "a2", type: "diagram", position: { x: 350, y: 922 }, width: 176, height: 84, data: { label: "Agent 编排中枢", kind: "hexagon", color: "#8b5cf6", detail: "AI Link" } },
+      { id: "a3", type: "diagram", position: { x: 566, y: 916 }, width: 176, height: 72, data: { label: "主动交互引擎", kind: "rectangle", color: "#8b5cf6" } },
+      { id: "a4", type: "diagram", position: { x: 782, y: 916 }, width: 170, height: 60, data: { label: "影音娱乐", kind: "rounded", color: "#f59e0b" } },
+      { id: "a5", type: "diagram", position: { x: 992, y: 916 }, width: 170, height: 60, data: { label: "导航与出行", kind: "rounded", color: "#f59e0b" } },
+      // 云端生态
+      { id: "e1", type: "diagram", position: { x: 150, y: 1090 }, width: 170, height: 92, data: { label: "云端大模型", kind: "database", color: "#10b981", detail: "多模态增强" } },
+      { id: "e2", type: "diagram", position: { x: 340, y: 1090 }, width: 170, height: 92, data: { label: "内容生态", kind: "database", color: "#10b981", detail: "音乐 / 视频 / 资讯" } },
+      { id: "e3", type: "diagram", position: { x: 530, y: 1090 }, width: 176, height: 72, data: { label: "手机互联", kind: "rectangle", color: "#10b981", detail: "CarPlay / HiCar" } },
+      { id: "e4", type: "diagram", position: { x: 746, y: 1090 }, width: 176, height: 72, data: { label: "车家互联", kind: "rectangle", color: "#10b981", detail: "智能家居" } },
+      { id: "e5", type: "diagram", position: { x: 962, y: 1090 }, width: 176, height: 92, data: { label: "OTA 与数据运营", kind: "database", color: "#10b981", detail: "升级 / 数据" } },
+      { id: "e6", type: "diagram", position: { x: 1178, y: 1090 }, width: 170, height: 72, data: { label: "车联网 V2X", kind: "rectangle", color: "#10b981", detail: "路况 / 车云" } },
+    ],
+    edges: [
+      { id: "e-01", source: "t1", target: "c1", label: "显示输出", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-02", source: "t2", target: "c1", label: "显示输出", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-03", source: "t3", target: "c1", label: "显示输出", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-04", source: "t4", target: "c1", label: "显示输出", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-05", source: "t5", target: "h1", label: "语音采集", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-06", source: "t6", target: "e3", label: "设备协同", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-07", source: "q1", target: "c2", label: "芯片供应", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-08", source: "q2", target: "c2", label: "芯片供应", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-09", source: "q3", target: "c2", label: "芯片供应", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-10", source: "q4", target: "c2", label: "芯片供应", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-11", source: "c1", target: "c2", label: "算力调度", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-12", source: "c1", target: "c3", label: "系统服务", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-13", source: "c2", target: "c3", label: "硬件抽象", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-14", source: "c4", target: "c1", label: "感知输入", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-15", source: "c1", target: "c5", label: "场景输入", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-16", source: "c5", target: "a2", label: "场景意图", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-17", source: "a1", target: "a2", label: "推理结果", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-18", source: "e1", target: "a2", label: "云端增强", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-19", source: "a2", target: "a3", label: "交互决策", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-20", source: "a3", target: "a4", label: "内容调用", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-21", source: "a3", target: "a5", label: "出行服务", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-22", source: "e2", target: "a4", label: "内容供给", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-23", source: "e3", target: "a3", label: "手机投屏", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-24", source: "e4", target: "a3", label: "家居联动", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-25", source: "e5", target: "c3", label: "OTA 升级", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-26", source: "e6", target: "c1", label: "车路信息", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-27", source: "h1", target: "c4", label: "语音采集", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-28", source: "h2", target: "c4", label: "视觉采集", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-29", source: "h3", target: "c1", label: "连接管理", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-30", source: "h4", target: "c1", label: "车云数据", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-31", source: "c1", target: "h5", label: "音源调度", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-32", source: "h5", target: "h6", label: "音频输出", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-33", source: "c1", target: "h7", label: "灯效控制", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+      { id: "e-34", source: "h8", target: "c1", label: "供电与域间通信", type: "smoothstep", markerEnd: { type: "arrowclosed" } },
+    ],
+  };
+}
+
+export function loadDoc(): DiagramDoc | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    const doc = JSON.parse(raw) as DiagramDoc;
+    if (!doc || !Array.isArray(doc.nodes) || !Array.isArray(doc.edges)) return null;
+    return doc;
+  } catch {
+    return null;
+  }
+}
+
+export function saveDoc(doc: DiagramDoc): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(doc));
+  } catch {
+    // 存储满时静默失败，界面仍可继续使用
+  }
+}
+
+export function loadPromptHistory(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(PROMPT_HISTORY_KEY);
+    if (!raw) return [];
+    const list = JSON.parse(raw);
+    return Array.isArray(list) ? list.slice(0, 12) : [];
+  } catch {
+    return [];
+  }
+}
+
+export function savePromptHistory(prompts: string[]): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(PROMPT_HISTORY_KEY, JSON.stringify(prompts.slice(0, 12)));
+  } catch {
+    // 忽略存储异常
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "conv-1786625157931-m42wr58l0",
+  "providerId": "codex",
+  "title": "Analyze 艾博连 company",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786625157935,
+  "lastActivityAt": 1786625201768,
+  "sessionId": "019ffb28-6b70-7e12-96ed-aeb9f0d34a85",
+  "selectedModel": "openai-codex/deepseek-v4-flash",
+  "providerState": {
+    "threadId": "019ffb28-6b70-7e12-96ed-aeb9f0d34a85",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/kangweiqing/.codex/sessions/2026/08/13/rollout-2026-08-13T20-45-58-019ffb28-6b70-7e12-96ed-aeb9f0d34a85.jsonl",
+    "transcriptRootPath": "/Users/kangweiqing/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "usage": {
+    "inputTokens": 76823,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 45824,
+    "contextWindow": 950000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 76823,
+    "percentage": 8,
+    "model": "deepseek-v4-flash"
+  }
+}

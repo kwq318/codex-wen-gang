@@ -1,0 +1,4 @@
+interface:
+  display_name: "销售研究"
+  short_description: "全面研究销售线索、公司背景、联系人信息与购买信号分析"
+  default_prompt: "使用 $sales-research 研究目标公司与联系人，并输出带来源和下一步建议的销售情报。"

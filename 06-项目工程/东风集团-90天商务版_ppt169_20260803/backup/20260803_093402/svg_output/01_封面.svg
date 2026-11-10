@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720"
+     data-pptx-page-role="cover"
+     font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif">
+  <rect id="background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F6F4EF"/>
+  <rect id="cover-accent" data-pptx-role="decoration" x="0" y="0" width="28" height="720" fill="#C34A3D"/>
+  <g id="cover-eyebrow" data-pptx-bounds="88 104 560 64">
+    <text x="96" y="140" font-size="20" font-weight="bold" fill="#2E6F68">入职90天工作计划 · 销售总监汇报版</text>
+  </g>
+  <g id="cover-title" data-pptx-bounds="88 180 840 260">
+    <text x="96" y="252" font-size="56" font-weight="bold" fill="#17211F">东风集团</text>
+    <text x="96" y="322" font-size="40" font-weight="bold" fill="#17211F">90天客户机会验证与POC推进计划</text>
+  </g>
+  <g id="cover-rule" data-pptx-bounds="88 360 680 24">
+    <line x1="96" y1="372" x2="720" y2="372" stroke="#C34A3D" stroke-width="6"/>
+  </g>
+  <g id="cover-claim" data-pptx-bounds="88 400 920 84">
+    <text x="96" y="448" font-size="28" fill="#3E403D">先验证再承诺，先价值再交易</text>
+  </g>
+  <g id="cover-meta" data-pptx-bounds="88 560 840 64">
+    <text x="96" y="606" font-size="18" fill="#3E403D">2026-08-03  |  商务版 V1.0</text>
+  </g>
+</svg>
